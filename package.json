@@ -1,6 +1,6 @@
 {
   "name": "landing-page-soulshoes",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "engines": {
     "node": "16.x",
     "npm": "8.x"
@@ -16,7 +16,7 @@
     "bootstrap": "^5.2.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
-    "react-bootstrap-star-rating": "^3.5.5-alpha.0.3",
+    "react-bootstrap-star-rating": "^0.0.2",
     "react-dom": "^18.2.0",
     "react-flatpickr": "^3.10.13",
     "react-responsive-carousel": "^3.2.23",

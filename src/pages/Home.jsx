@@ -26,8 +26,6 @@ function Home() {
         <FeaturesHome />
         <img className="bg-fill w-full mx-full md:px-36 bg-[#da59af]" src={NuvemBanner2} width="768" height="432" alt="Hero" />
         <FeaturesBlocks />
-        {/* <img className="bg-fill w-full mx-full" src={BannerGigante1} alt="Banner Gigante" />
-        <img className="bg-fill w-full mx-full" src={BannerGigante2} alt="Banner Gigante" /> */}
         <BannerGigante />
         <Testimonials />
         {/* <Pagamento />

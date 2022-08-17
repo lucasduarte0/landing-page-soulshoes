@@ -26,10 +26,9 @@ function Home() {
         <HeroHome />
         <FeaturesHome />
         <img className="bg-fill w-full mx-full" src={NuvemBanner2} width="768" height="432" alt="Hero" />
-        <Avaliacao />
         <FeaturesBlocks />
-        <img className="bg-fill w-full mx-full" src={BannerGigante1} alt="Banner 1" />
-        <img className="bg-fill w-full mx-full" src={BannerGigante2} alt="Banner 2" />
+        <img className="bg-fill w-full mx-full" src={BannerGigante1} alt="Banner Gigante" />
+        <img className="bg-fill w-full mx-full" src={BannerGigante2} alt="Banner Gigante" />
         <Testimonials />
         <Newsletter />
 

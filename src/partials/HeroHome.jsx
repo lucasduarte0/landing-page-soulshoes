@@ -37,7 +37,7 @@ function HeroHome() {
           {/* Section header */}
           <div className="text-center md-6">
             <h1 className="text-white text-5xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl" data-aos="zoom-y-out">Novo </h1>
-            <h1 className="text-5xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter" data-aos="zoom-y-out"><span className="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 drop-shadow-md hover:drop-shadow-xl">Chinelo Nuvem</span></h1>
+            <h1 className="text-4xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter" data-aos="zoom-y-out"><span className="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 drop-shadow-md hover:drop-shadow-xl">Chinelo Nuvem</span></h1>
             {/* <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
@@ -59,6 +59,10 @@ function HeroHome() {
               </div>
             </div>
           </div>
+
+          <h1 className="text-white text-2xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl mb-8" data-aos="zoom-y-out">
+          SABE AQUELA SENSAÇÃO DE ANDAR SOBRE AS NUVEMS? 
+          </h1>
 
           {/* Hero image */}
           <div>
@@ -87,6 +91,7 @@ function HeroHome() {
                 <iframe className="absolute w-full h-full" src="https://player.vimeo.com/video/670232109?h=6d52a47cdc" width="640" height="853" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
               </div>
             </Modal>
+            
 
           </div>
 

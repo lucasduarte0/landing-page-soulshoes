@@ -8,7 +8,8 @@ import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
 import NuvemBanner2 from '../images/nuvem-banner-2.png';
-import BannerGigante from '../images/BannerGigante.png';
+import BannerGigante1 from '../images/banner-grande-1.png';
+import BannerGigante2 from '../images/banner-grande-2.png';
 import Avaliacao from '../utils/Avaliacao';
 
 function Home() {
@@ -25,9 +26,9 @@ function Home() {
         <HeroHome />
         <FeaturesHome />
         <img className="bg-fill w-full mx-full" src={NuvemBanner2} width="768" height="432" alt="Hero" />
-        <Avaliacao />
         <FeaturesBlocks />
-        <img className="bg-fill w-full mx-full" src={BannerGigante} width="768" height="432" alt="Banner Gigante" />
+        <img className="bg-fill w-full mx-full" src={BannerGigante1} alt="Banner Gigante" />
+        <img className="bg-fill w-full mx-full" src={BannerGigante2} alt="Banner Gigante" />
         <Testimonials />
         <Newsletter />
 

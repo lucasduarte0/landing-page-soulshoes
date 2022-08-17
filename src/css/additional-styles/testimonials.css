@@ -5,7 +5,7 @@
   }
   
   .carousel .slide {
-    background: #fff !important;
+    background: none !important;
     color: black;
     height: 100%;
     padding-top: 20px !important;
@@ -14,7 +14,7 @@
   .carousel .slide img {
     width: 139px !important;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
   .myCarousel {
@@ -24,7 +24,7 @@
     margin-left: auto;
     margin-right: auto;
     padding-top: 6%;
-    padding-bottom: 8%;
+    padding-bottom: 20%;
     padding-left: 5%;
     padding-right: 5%;
     border: 1px solid #ddd;
@@ -35,7 +35,7 @@
   .carousel .control-dots {
     padding-left: 5px !important;
     outline: 0;
-    bottom: 5% !important;
+    bottom: 11% !important;
   }
   
   .myCarousel h3 {
@@ -113,7 +113,7 @@
     .myCarousel {
       background: #fafafa;
       margin-top: -9%;
-      width: 88%;
+      width: 92%;
       margin-left: auto;
       margin-right: auto;
       padding-top: 8%;

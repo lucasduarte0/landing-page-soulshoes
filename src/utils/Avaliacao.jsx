@@ -4,7 +4,7 @@ import './../css/additional-styles/avaliacao.css'
 
 function Avaliacao() {
   return (
-    <section id="avaliacao" className="relative mb-5">
+    <section id="avaliacao" className="relative mb-5 mt-5">
 
     <ul className="ui-pdp-seller__list-description snipcss0-0-0-1 snipcss-ORagB snip-ul">
     <li className="ui-pdp-seller__item-description snipcss0-1-1-2 snip-li">

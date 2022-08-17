@@ -123,6 +123,10 @@ module.exports = {
       zIndex: {
         '-1': '-1',
       },
+      backgroundImage: {
+        'banner-1': "url('./img/hero-pattern.svg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      }
     },
   },
   variants: {
@@ -135,4 +139,5 @@ module.exports = {
   plugins: [
     require('@tailwindcss/forms'),
   ],
+  
 };

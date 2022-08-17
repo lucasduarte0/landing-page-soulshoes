@@ -5,6 +5,8 @@ import NuvemBanner2 from '../images/nuvem-banner-2.png';
 
 import FeaturesBg from '../images/features-bg.png';
 import FeaturesElement from '../images/features-element.png';
+import ButtonComprar from '../components/ButtonComprar.jsx';
+
 
 function Features() {
 
@@ -24,21 +26,14 @@ function Features() {
   }, [tab])
 
   return (
-    <section className="relative">
+    <section className="relative bg-[#da59af]">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
-      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
+      <div className="absolute inset-0 pointer-events-none mb-16" aria-hidden="true"></div>      
 
-      <div className="bg-[#da59af] py-5 relative max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="bg-green-500  text-center text-white font-semibold">
-          <Button variant="primary" size="xl">
-            <div className='flex flex-col space-y-3'>
-              <h2 className='text-4xl'>SIM!</h2>
-              <p className='text-lg'>Quero garantir meu Chinelo Nuvem</p>
-            </div>
-          </Button>
-        </div>
+      <div className="py-5 relative max-w-6xl mx-auto px-4 sm:px-6">   
+      
+      <ButtonComprar titleColor="white"></ButtonComprar>   
 
         <div className="pt-12 md:pt-20">
 

@@ -4,7 +4,7 @@ import Testimonial from "../components/Testimonial.jsx";
 
 function Testimonials() {
   return (
-    <section className="relative bg-[#da5aaf]">
+    <section className="relative bg-[#da5aaf] md:px-36">
 
       {/* Illustration behind content */}
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -mb-32" aria-hidden="true">

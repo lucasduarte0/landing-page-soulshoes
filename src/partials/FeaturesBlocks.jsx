@@ -10,7 +10,7 @@ import ShippingSvg from '../images/shipping-fast.svg'
 
 function FeaturesBlocks() {
   return (
-    <section className="relative">
+    <section className="relative md:px-36">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 pointer-events-none" aria-hidden="true"></div>
@@ -51,7 +51,7 @@ function FeaturesBlocks() {
             </div>
 
             {/* 4st item */}
-            <h4 className="text-2xl font-bold leading-snug tracking-tight text-center">Initial Contact</h4>
+            <h4 className="text-2xl font-bold leading-snug tracking-tight text-center">Perfeito para o dia-a-dia</h4>
             <div className="relative shadow-2xl rounded-3xl flex flex-col items-center bg-none rounded shadow-xl">
               <img className="rounded-3xl bg-fill w-full mx-full" src={Block4} width="768" height="432" alt="Banner Gigante" />
             </div>

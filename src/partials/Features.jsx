@@ -47,7 +47,7 @@ function Features() {
           <div className="md:grid-cols-2 md:gap-6">
 
             {/* Content */}
-            <div className="max-w-xl mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
+            <div className="w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="text-white h3 mb-3">Vantagens:</h3>
                 {/* <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p> */}

@@ -43,7 +43,7 @@ function App() {
         <Route path="/reset-password" element={<ResetPassword />} />
       </Routes>
     </>
-  );
+  );  
 }
 
 export default App;

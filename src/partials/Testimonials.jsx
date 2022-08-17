@@ -1,6 +1,6 @@
 import React from 'react';
+import Testimonial from "../components/Testimonial.jsx";
 
-import TestimonialImage from '../images/testimonial.jpg';
 
 function Testimonials() {
   return (
@@ -34,8 +34,6 @@ function Testimonials() {
           </div>
 
           {/* Items */}
-          <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-5">
-          </div>
 
           {/* Testimonials */}
           {/* <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
@@ -60,6 +58,8 @@ function Testimonials() {
 
             </div>
           </div> */}
+          <Testimonial></Testimonial>
+
 
         </div>
       </div>

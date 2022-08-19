@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import Modal from '../utils/Modal';
 
 import HeroImage from '../images/hero-image.png';
-import NuvemBanner from '../images/nuvem-banner.png';
+import NuvemBanner from '../images/nuvem-banner-1.png';
+import Sombra from '../images/sombra.png';
 import CapaVideo from '../images/capa-video.png';
 
 function HeroHome() {
@@ -41,10 +42,13 @@ function HeroHome() {
           </div>
 
           {/* Nuvem Banner */}
-          <div className='z-auto'>
+          <div className=''>
             <div className="relative flex justify-center pt-2 mb-8 z-0" data-aos="zoom-y-out" data-aos-delay="450">
-              <div className="flex flex-col justify-center">
-                <img className="object-fill mx-auto z-0" src={NuvemBanner} width="768" height="380" alt="Hero" />
+              <div className="flex flex-col justify-center ">
+                  <div className="animate-rotate-slow">
+                    <img className="object-fill mx-auto z-0 animate-bounce-slow" src={NuvemBanner} width="768" height="380" alt="Hero" />
+                  </div>
+                <img className="object-fill mx-auto z-0" src={Sombra} width="768" height="380" alt="Hero" />
               </div>
             </div>
           </div>

@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom';
 function ButtonComprar(props) {
 
   return (
-    <section href="https://soulshoes.mercadoshops.com.br/" className={'z-50 animate-[bounce_1s_infinite] ' + props.className}>  
+    <section href="" className={'z-50 animate-[bounce_1s_infinite] ' + props.className}>  
       <div className="bg-green-500 hover:bg-green-300 text-center text-white font-semibold rounded-2xl drop-shadow-2xl">
-      <Link to={{ pathname: "https://example.zendesk.com/hc/en-us/articles/123456789-Privacy-Policies" }} target="_blank">
+      <Link to={{ pathname: "https://soulshoes.mercadoshops.com.br/" }} target="_blank">
         <Button variant="primary" size="xl">
           <div className='flex flex-col tracking-wider'>
             <h2 className='text-2xl font-bold'>{props.text}</h2>
-            <p className='text-lg'>{props.subText}</p>
+            <p className='text-sm'>{props.subText}</p>
           </div>
         </Button>
       </Link>

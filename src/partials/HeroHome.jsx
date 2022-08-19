@@ -32,30 +32,19 @@ function HeroHome() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Hero content */}
-        <div className="pt-20 pb-12 md:pt-40 md:pb-20">
+        <div className="pt-5 pb-12 md:pt-10 md:pb-20">
 
           {/* Section header */}
-          <div className="text-center md-6">
-            <h1 className="text-white text-5xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl" data-aos="zoom-y-out">Novo </h1>
-            <h1 className="text-4xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter" data-aos="zoom-y-out"><span className="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 drop-shadow-md hover:drop-shadow-xl">Chinelo Nuvem</span></h1>
-            {/* <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-              <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
-                <div>
-                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
-                </div>
-                <div>
-                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
-                </div>
-              </div>
-            </div> */}
+          <div className="text-center md-6 z-50">
+            <h1 className="text-white text-5xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">Novo </h1>
+            <h1 className="text-4xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter z-10" data-aos="zoom-y-out"><span className="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 drop-shadow-md hover:drop-shadow-xl">Chinelo Nuvem</span></h1>
           </div>
 
           {/* Nuvem Banner */}
-          <div>
-            <div className="relative flex justify-center mb-8 " data-aos="zoom-y-out" data-aos-delay="450">
+          <div className='z-auto'>
+            <div className="relative flex justify-center pt-2 mb-8 z-0" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="flex flex-col justify-center">
-                <img className="object-fill mx-auto" src={NuvemBanner} width="768" height="380" alt="Hero" />
+                <img className="object-fill mx-auto z-0" src={NuvemBanner} width="768" height="380" alt="Hero" />
               </div>
             </div>
           </div>

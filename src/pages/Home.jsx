@@ -16,7 +16,7 @@ function Home() {
     <div className="flex flex-col min-h-screen overflow-hidden md:w-full md:justify-center">
 
       {/*  Site header */}
-      <Header />
+      {/* <Header /> */}
 
       {/*  Page content */}
       <main className="flex-grow">

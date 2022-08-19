@@ -37,7 +37,7 @@ function Footer() {
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Prazos</Link>
               </li>
               <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Loja Official</Link>
+                <a href="https://soulshoes.mercadoshops.com.br/" target="_blank" rel="noreferrer" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Loja Official</a>
               </li>    
             </ul>
           </div>    

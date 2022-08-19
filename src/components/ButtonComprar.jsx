@@ -11,7 +11,7 @@ function ButtonComprar(props) {
         <Button variant="primary" size="xl">
           <div className='flex flex-col tracking-wider'>
             <h2 className='text-2xl font-bold'>{props.text}</h2>
-            <p className='text-sm'>{props.subText}</p>
+            <p className='text-lg'>{props.subText}</p>
           </div>
         </Button>
       </Link>

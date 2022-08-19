@@ -35,7 +35,7 @@ function Features() {
 
       <h4 className={"text-xl font-semibold uppercase leading-snug text-center mb-3 text-white"}>Nunca foi tão facil se sentir nas nuvens!</h4>
       
-      <ButtonComprar text="EU QUERO ME SENTIR NAS NUVENS"></ButtonComprar>   
+      <ButtonComprar titleColor="white" text="EU QUERO ME SENTIR NAS NUVENS"></ButtonComprar>   
 
         <div className="pt-12 md:pt-20">
 

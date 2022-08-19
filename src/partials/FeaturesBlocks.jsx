@@ -61,7 +61,7 @@ function FeaturesBlocks() {
 
         </div>
 
-        <ButtonComprar className="md:mt-10" titleColor="gray-700" text="COMPRAR AGORA COM FRETE GRATIS!" subText="ÚLTIMAS UNIDADES"></ButtonComprar>
+        <ButtonComprar className="md:mt-10" titleColor="gray-700" text="COMPRAR AGORA COM FRETE GRATIS!"></ButtonComprar>
 
       </div>
     </section>

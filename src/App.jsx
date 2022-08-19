@@ -15,6 +15,7 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
 import QuemSomos from './pages/QuemSomos';
+import Termos from './pages/Termos';
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/quem-somos" element={<QuemSomos />} />
+        <Route path="/termos" element={<Termos />} />
       </Routes>
     </>
   );  

@@ -24,11 +24,11 @@ function Testimonials() {
         </svg>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+      <div className="max-w-6xl mx-auto px-10 sm:px-6">
+        <div className="md:py-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-3xl mx-auto text-center pb-6 md:pb-16">
             <h2 className="h2 text-white mb-4">Mais de 10 mil pessoas já avaliaram o produto</h2>
             <p className="text-xl text-gray-200" data-aos="zoom-y-out">Sinta como se estivesse pisando nas nuvems</p>
           </div>
@@ -57,12 +57,12 @@ function Testimonials() {
               </div>
 
             </div>
-          </div> */}
-          <Testi></Testi>
+          </div> */}     
 
 
         </div>
       </div>
+    <Testi></Testi>
     </section>
   );
 }

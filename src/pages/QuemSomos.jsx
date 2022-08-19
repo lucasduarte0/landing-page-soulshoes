@@ -2,6 +2,7 @@ import React from 'react';
 import StarRating from '../components/StarRating';
 import Testi from '../components/Testi';
 import Logo from '../images/logo.png'
+import Footer from '../partials/Footer';
 
 import Header from '../partials/Header';
 
@@ -25,7 +26,6 @@ function QuemSomos() {
               <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
                 <h1 className="h2 mb-5">Quem Somos?</h1>
                 <p className=''>Nascida em 2018, somos uma loja online especializados em calçados em geral e operada com paixão por beleza, conforto e praticidade. Oferecemos uma grande variedade de produtos, incluindo chinelos, tênis, botas e sandálias. Nossos clientes podem navegar em nossos produtos e desfrutar de nossos preços exclusivos.</p>
-                <img className="block m-auto pb-5 w-2/3 align-center" src={Logo}></img>
               </div>
 
             </div>
@@ -33,6 +33,7 @@ function QuemSomos() {
         </section>
 
       </main>
+      <Footer></Footer>
 
     </div>
   );

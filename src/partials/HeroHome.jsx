@@ -60,8 +60,8 @@ function HeroHome() {
             </div>
           </div>
 
-          <h1 className="text-white text-2xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl mb-8" data-aos="zoom-y-out">
-          SABE AQUELA SENSAÇÃO DE ANDAR SOBRE AS NUVEMS? 
+          <h1 className="text-white text-2xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl mb-8" data-aos="zoom-y-out"> 
+          SABE AQUELA SENSAÇÃO DE ANDAR SOBRE AS NUVEMS?
           </h1>
 
           {/* Hero image */}

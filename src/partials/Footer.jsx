@@ -28,10 +28,7 @@ function Footer() {
             <h6 className="text-gray-800 font-medium mb-2">Products</h6>
             <ul className="text-sm">
               <li className="mb-2">
-                <Link to="https://google.com.br" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Web Studio</Link>
-              </li>
-              <li className="mb-2">
-                <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">DynamicBox Flex</Link>
+                <Link to="/quem-somos" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">DynamicBox Flex</Link>
               </li>
               <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Programming Forms</Link>
@@ -76,7 +73,8 @@ function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">Made by <a className="text-blue-600 hover:underline" href="https://cruip.com/">Cruip</a>. All rights reserved.</div>
+          <div className="text-xs text-gray-600 mr-4">Soulshoes Comércio de Calçados e Acessórios LTDA</div>
+          <div className="text-xs text-gray-600 mr-4">CNPJ 43.336.887/0001-04</div>
 
         </div>
 

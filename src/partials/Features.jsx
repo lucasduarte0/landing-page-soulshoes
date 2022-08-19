@@ -32,8 +32,10 @@ function Features() {
       <div className="absolute inset-0 pointer-events-none mb-16" aria-hidden="true"></div>      
 
       <div className="py-5 relative max-w-6xl mx-auto px-4 sm:px-6">   
+
+      <h4 className={"text-xl font-semibold uppercase leading-snug text-center mb-3 text-white"}>Nunca foi tão facil se sentir nas nuvens!</h4>
       
-      <ButtonComprar titleColor="white"></ButtonComprar>   
+      <ButtonComprar titleColor="white" text="EU QUERO ME SENTIR NAS NUVENS"></ButtonComprar>   
 
         <div className="pt-12 md:pt-20">
 

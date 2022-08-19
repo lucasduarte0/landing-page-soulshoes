@@ -120,6 +120,12 @@ module.exports = {
           '50%': { transform: 'translateY(-5%)', },
         },
       },
+      keyframes: {
+        bounce: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-5%)' },
+        }
+      },
       zIndex: {
         '-1': '-1',
       },

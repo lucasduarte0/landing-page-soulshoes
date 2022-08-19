@@ -18,7 +18,7 @@ function FeaturesBlocks() {
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
           
-        <ButtonComprar titleColor="gray-700"></ButtonComprar>
+        <ButtonComprar className="md:mt-10" titleColor="gray-700" text="COMPRAR AGORA COM FRETE GRATIS!"></ButtonComprar>
 
 
         <div className="mb-5 py-0 md:py-20">
@@ -61,7 +61,7 @@ function FeaturesBlocks() {
 
         </div>
 
-        <ButtonComprar titleColor="gray-700"></ButtonComprar>
+        <ButtonComprar className="md:mt-10" titleColor="gray-700" text="COMPRAR AGORA COM FRETE GRATIS!"></ButtonComprar>
 
       </div>
     </section>

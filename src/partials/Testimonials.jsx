@@ -1,4 +1,5 @@
 import React from 'react';
+import Testi from '../components/Testi.jsx';
 import Testimonial from "../components/Testimonial.jsx";
 
 
@@ -28,7 +29,7 @@ function Testimonials() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 text-white mb-4">Mais de 10mil pessoas já avaliaram o produto</h2>
+            <h2 className="h2 text-white mb-4">Mais de 10 mil pessoas já avaliaram o produto</h2>
             <p className="text-xl text-gray-200" data-aos="zoom-y-out">Sinta como se estivesse pisando nas nuvems</p>
           </div>
 
@@ -57,7 +58,7 @@ function Testimonials() {
 
             </div>
           </div> */}
-          <Testimonial></Testimonial>
+          <Testi></Testi>
 
 
         </div>

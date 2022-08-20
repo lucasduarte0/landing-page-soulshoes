@@ -26,36 +26,35 @@ function FeaturesBlocks() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h3 mb-4"></h2>
-            <p className="text-xm text-gray-600">Chinelo Ortopédico Nuvem Confort Relax, você merece o conforto do calçado mais leve do mundo, e sem perder o estilo. O Modelo Chinelo Nuvem é macio, grosso e confortável para aliviar as dores nos pés e nas articulações. Você vai usar o dia inteiro sem sentir qualquer desconforto e sem perder o estilo. </p>
+            <p className="text-xm text-gray-600 mb-10">Chinelo Ortopédico Nuvem Confort Relax, você merece o conforto do calçado mais leve do mundo, e sem perder o estilo. O Modelo Chinelo Nuvem é macio, grosso e confortável para aliviar as dores nos pés e nas articulações. Você vai usar o dia inteiro sem sentir qualquer desconforto e sem perder o estilo. </p>
+            <h4 className="text-2xl font-bold leading-snug tracking-tight text-center">Sinta a Mais Pura Sensação de Andar Sobre as Nuvens!</h4>
           </div>
 
           {/* Items */}
+
           <div className="max-w-xs mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
 
             {/* 1st item */}
-            <h4 className="text-2xl font-bold leading-snug tracking-tight text-center">Sinta a Mais Pura Sensação de Andar Sobre as Nuvens!</h4>
-            <div className="relative shadow-2xl rounded-3xl flex flex-col items-center bg-none rounded shadow-xl">
-              <img className="rounded-3xl bg-fill w-full mx-full" src={Block1} width="768" height="432" alt="Banner Gigante" />
+
+            <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl border shadow-xl transition duration-300 ease-in-out mb-3'>
+              <img className="bg-fill w-full mx-full" src={Block1} width="768" height="432" alt="Banner Gigante" />
+              <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">Super Macio</h4>
+            </div>
+
+            <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl border shadow-xl transition duration-300 ease-in-out mb-3'>
+              <img className="bg-fill w-full mx-full" src={Block2} width="768" height="432" alt="Banner Gigante" />
+              <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">Super Macio</h4>
             </div>
             
-            {/* 2st item */}
-            <h4 className="text-2xl font-bold leading-snug tracking-tight text-center">Sola Antiderrapante!!!</h4>
-            <div className="relative shadow-2xl rounded-3xl flex flex-col items-center bg-none rounded shadow-xl">
-              <img className="rounded-3xl bg-fill w-full mx-full" src={Block2} width="768" height="432" alt="Banner Gigante" />
+            <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl border shadow-xl transition duration-300 ease-in-out mb-3'>
+              <img className="bg-fill w-full mx-full" src={Block3} width="768" height="432" alt="Banner Gigante" />
+              <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">Super Macio</h4>
             </div>
 
-            {/* 3st item */}
-            <h4 className="text-2xl font-bold leading-snug tracking-tight text-center">Fácil Limpeza!</h4>
-            <div className="relative shadow-2xl rounded-3xl flex flex-col items-center bg-none rounded shadow-xl">
-              <img className="rounded-3xl bg-fill w-full mx-full" src={Block5} width="768" height="432" alt="Banner Gigante" />
-            </div>
-
-            {/* 4st item */}
-            <h4 className="text-2xl font-bold leading-snug tracking-tight text-center">Perfeito para o dia-a-dia</h4>
-            <div className="relative shadow-2xl rounded-3xl flex flex-col items-center bg-none rounded shadow-xl">
-              <img className="rounded-3xl bg-fill w-full mx-full" src={Block4} width="768" height="432" alt="Banner Gigante" />
-            </div>
-
+            <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl border shadow-xl transition duration-300 ease-in-out mb-3'>
+              <img className="bg-fill w-full mx-full" src={Block4} width="768" height="432" alt="Banner Gigante" />
+              <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">Super Macio</h4>
+            </div>                      
 
           </div>
 

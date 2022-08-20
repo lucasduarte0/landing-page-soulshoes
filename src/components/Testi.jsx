@@ -18,11 +18,11 @@ export default class Testi extends Component {
       interval={6100}
     >
     { TestimonialMsg.map( (TestimonialMsg) => 
-      <div class="mx-10 mb-10 row-span-2 p-6 border border-gray-100 rounded-xl bg-gray-50 text-center sm:p-8">
-        <div class="h-full flex flex-col justify-center space-y-4">
+      <div class="min-h-[350px] mx-10 mb-10 row-span-2 p-6 border border-gray-100 rounded-xl bg-gray-50 text-center sm:p-8">
+        <div class="h-full flex flex-col justify-center align-center space-y-4">
           <div className="flex w-auto items-center flex-center justify-center">
             <img class="w-auto rounded-full m-4" src={TestimonialMsg.img} alt="user avatar" height="220" width="220" loading="lazy"></img>
-            <div className="myCaroulsel">
+            <div className="flex myCaroulsel">
                 <h6 class="text-lg font-semibold leading-none">{TestimonialMsg.name}</h6>
                 <StarRating qtd={TestimonialMsg.stars}></StarRating>
             </div>

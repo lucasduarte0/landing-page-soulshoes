@@ -22,7 +22,7 @@ export default class Testi extends Component {
         <div class="h-full flex flex-col justify-center align-center space-y-4">
           <div className="flex w-auto items-center flex-center justify-center">
             <img class="w-auto rounded-full m-4" src={TestimonialMsg.img} alt="user avatar" height="220" width="220" loading="lazy"></img>
-            <div className="flex myCaroulsel">
+            <div className="myCaroulsel">
                 <h6 class="text-lg font-semibold leading-none">{TestimonialMsg.name}</h6>
                 <StarRating qtd={TestimonialMsg.stars}></StarRating>
             </div>

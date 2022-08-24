@@ -115,9 +115,14 @@ module.exports = {
         "bounce-slow": 'bouncee 2s ease-in-out infinite',
         "rotate-slow": 'spinn 4s linear infinite',
         float: 'float 3s ease-in-out infinite',
+        blow: 'bloww 1s ease-in-out infinite',
       },
 
       keyframes: {
+        bloww: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.04)' },
+        },
         bounce: {
           '0%, 100%': { transform: 'translateY(0%)' },
           '50%': { transform: 'translateY(-5%)' },

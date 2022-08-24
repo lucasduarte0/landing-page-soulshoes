@@ -37,13 +37,13 @@ function HeroHome() {
 
           {/* Section header */}
           <div className="text-center md-6 z-50">
-            <h1 className="text-white text-5xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">Novo </h1>
-            <h1 className="text-4xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter z-10" data-aos="zoom-y-out"><span className="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 drop-shadow-md hover:drop-shadow-xl">Chinelo Nuvem</span></h1>
+            {/* <h1 className="capitalize text-white text-3xl text-middle md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">Sabe aquela sensação de andar sobre as nuvens?</h1> */}
+            <h1 className="capitalize text-white text-3xl text-middle md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">VOCÊ NÃO PRECISA VOAR PARA SE SENTIR NAS NUVENS!</h1>
           </div>
 
           {/* Nuvem Banner */}
           <div className=''>
-            <div className="relative flex justify-center pt-2 mb-8 z-0" data-aos="zoom-y-out" data-aos-delay="450">
+            <div className="relative flex justify-center pt-2 mb-8 z-0 mt-8" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="flex flex-col justify-center ">
                   <div className="animate-rotate-slow">
                     <img className="object-fill mx-auto z-0 animate-bounce-slow" src={NuvemBanner} width="768" height="380" alt="Hero" />
@@ -53,9 +53,10 @@ function HeroHome() {
             </div>
           </div>
 
-          <h1 className="text-white text-2xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl mb-8" data-aos="zoom-y-out"> 
-          SABE AQUELA SENSAÇÃO DE ANDAR SOBRE AS NUVEMS?
-          </h1>
+          {/* <h1 className="text-white text-2xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl mb-8" data-aos="zoom-y-out"> 
+          SABE AQUELA SENSAÇÃO DE ANDAR SOBRE AS NUVENS?
+          </h1> */}
+          <h1 className="text-4xl text-left mb-5 md:text-6xl font-extrabold leading-tighter tracking-tighter z-10" data-aos="zoom-y-out"><span className="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 drop-shadow-md hover:drop-shadow-xl">Chinelo Tipo Nuvem</span></h1>
 
           {/* Hero image */}
           <div>

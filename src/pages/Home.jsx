@@ -10,6 +10,7 @@ import Footer from '../partials/Footer';
 import NuvemBanner2 from '../images/nuvem-banner-2.png';
 import Pagamento from '../partials/Pagamento';
 import BannerGigante from '../partials/BannerGigante';
+import YellowSection from '../partials/YellowSection';
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
+        <YellowSection />
         <FeaturesHome />
         <img className="bg-fill w-full mx-full md:px-36 bg-[#da59af]" src={NuvemBanner2} width="768" height="432" alt="Hero" />
         <FeaturesBlocks />

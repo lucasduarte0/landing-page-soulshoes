@@ -35,7 +35,6 @@ function Features() {
 
       <h4 className={"text-xl font-semibold uppercase leading-snug text-center mb-3 text-white"}>Nunca foi tão facil se sentir nas nuvens!</h4>
       
-      <ButtonComprar titleColor="white" text="EU QUERO ME SENTIR NAS NUVENS"></ButtonComprar>   
 
         <div className="pt-12 md:pt-20">
 
@@ -197,6 +196,8 @@ Seguro e confiável!</div>
 
             <h4 className={"text-2xl font-semibold leading-snug text-center mb-3 text-white"}>Diga adeus as dores nas costas, nosso chinelo. </h4>
             <h2 className="text-4xl font-semibold leading-snug text-center mb-3 text-white animate-blow">SUPER MACIA!</h2> 
+
+            <ButtonComprar titleColor="white" text="EU QUERO ME SENTIR NAS NUVENS"></ButtonComprar>   
 
             </div >
 

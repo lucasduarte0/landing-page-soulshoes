@@ -17,11 +17,13 @@ function YellowSection() {
 
 
           {/* Section header */}
-          <div className="flex flex-col max-w-3xl w-auto h-auto text-center pb-4 md:pb-20">
-            <p className="px-4 text-xl text-gray-700 mb-10">Você não precisa mais passar por dores nos pés e nas costas no fim do dia, nosso chinelo Nuvem foi criado para trazer mais conforto pra você sem perder a elegância! </p>
-            <img className="pl-8 drop-shadow-xl" src={NuvemFundo1}></img>
+          <div className="flex flex-col  text-xl max-w-3xl w-auto h-auto text-center px-3 pb-4 md:pb-20">
+            <p className="mt-3 mb-4 border-gray-500 text-gray-800 text-middle md:text-6xl leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10">Você não precisa mais passar por dores nos pés no fim do dia. </p>
+            <p className="mt-3 mb-4 border-gray-500 text-gray-800 text-middle md:text-6xl leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10">Nosso <strong>Chinelo Nuvem</strong> foi criado para trazer mais conforto pra você sem perder a elegância!</p> 
+            {/* <img className="pl-8 drop-shadow-xl" src={NuvemFundo1}></img> */}
             <img className="self-center drop-shadow-xl" src={SemDores} height="250" width="250"></img>
-            <ButtonComprar className="px-6 mt-4" text="COMPRAR AGORA COM FRETE GRATIS!"></ButtonComprar>
+            <h4 className={"text-2xl font-semibold leading-snug text-center mb-3 text-gray-800"}>Diga adeus as dores. </h4>
+            <ButtonComprar className="px-3 mt-4" text="EU QUERO ALIVIAR AS DORES!" subText="FRETE GRATIS PARA TODO BRASIL"></ButtonComprar>
             {/* <img src={NuvemFundo2}></img> */}
           </div>
 

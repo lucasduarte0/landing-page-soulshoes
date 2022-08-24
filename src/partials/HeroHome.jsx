@@ -12,12 +12,7 @@ function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
 
   return (
-    <section className="relative bg-[#3b9df4] md:px-36">
-    <div className='inline-flex w-full items-center justify-center text-center py-1 bg-[#f8dd4a]'>
-      <svg className='mx-2 self-middle' width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M3 18h-2c-.552 0-1-.448-1-1v-13c0-.552.448-1 1-1h13c.552 0 1 .448 1 1v2h4.667c1.117 0 1.6.576 1.936 1.107.594.94 1.536 2.432 2.109 3.378.188.312.288.67.288 1.035v4.48c0 1.089-.743 2-2 2h-1c0 1.656-1.344 3-3 3s-3-1.344-3-3h-6c0 1.656-1.344 3-3 3s-3-1.344-3-3zm3-1.2c.662 0 1.2.538 1.2 1.2 0 .662-.538 1.2-1.2 1.2-.662 0-1.2-.538-1.2-1.2 0-.662.538-1.2 1.2-1.2zm12 0c.662 0 1.2.538 1.2 1.2 0 .662-.538 1.2-1.2 1.2-.662 0-1.2-.538-1.2-1.2 0-.662.538-1.2 1.2-1.2zm-3-2.8h-13v2h1.765c.549-.614 1.347-1 2.235-1 .888 0 1.686.386 2.235 1h7.53c.549-.614 1.347-1 2.235-1 .888 0 1.686.386 2.235 1h1.765v-4.575l-1.711-2.929c-.179-.307-.508-.496-.863-.496h-4.426v6zm-2-9h-11v7h11v-7zm3 4v3h5l-1.427-2.496c-.178-.312-.509-.504-.868-.504h-2.705z"/></svg>
-      <h5 className='text-sm font-semibold'>FRETE GRÁTIS PARA TODO BRASIL</h5>
-    </div>
-
+    <section className="relative bg-[#3b9df4] md:px-3r">
       {/* Illustration behind hero content */}
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none" aria-hidden="true">
         <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
@@ -41,7 +36,7 @@ function HeroHome() {
         <div className="pt-8 pb-12 md:pt-10 md:pb-20 text-center">
 
           {/* Section header */}
-          <div className="text-start w-3/4 md-6 z-50">
+          <div className="text-center w-full z-50">
             {/* <h1 className="capitalize text-white text-3xl text-middle md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">Sabe aquela sensação de andar sobre as nuvens?</h1> */}
             <h1 className="capitalize text-white text-3xl text-middle md:text-6xl font-semibold tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">VOCÊ NÃO PRECISA VOAR PARA SE SENTIR NAS NUVENS!</h1>
           </div>
@@ -65,11 +60,11 @@ function HeroHome() {
           
           <div className="flex flex-col text-center md-6 z-50">
             {/* <h1 className="capitalize text-white text-3xl text-middle md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">Sabe aquela sensação de andar sobre as nuvens?</h1> */}
-            <h1 className="mt-8 mb-2 text-white text-xl text-middle md:text-6xl tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">
+            <h1 className="mt-8 mb-2 text-white text-xl md:text-3xl text-middle tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">
             Diga adeus as dores nos pés, pernas e coluna com o nosso <br/></h1>
-            <span className="mb-2 text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 drop-shadow-md hover:drop-shadow-xl">
+            <span className="mb-2 md:text-5xl text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 drop-shadow-md hover:drop-shadow-xl">
             Chinelo Nuvem</span>              
-            <h1 className="text-white text-xl text-middle md:text-6xl tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10">Feito com material que adapta ao formato do <strong className='uppercase'>seu pé!</strong></h1>
+            <h1 className="text-white text-xl text-middle md:text-3xl tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10">Feito com material que adapta ao formato do <strong className='uppercase'>seu pé!</strong></h1>
           </div>
 
           {/* Hero image */}

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function ButtonComprar(props) {
 
   return (
-    <section href="" className={'z-50 animate-blow ' + props.className}>  
+    <section href="" className={'z-0 animate-blow ' + props.className}>  
       <div className="bg-green-500 hover:bg-green-300 text-center text-white font-semibold rounded-2xl drop-shadow-lg">
       <a href="https://soulshoes.mercadoshops.com.br/MLB-2750446878-chinelo-feminino-nuvem-ortopedica-eva-super-macio-off-_JM" target="_blank" rel="noreferrer">        
         <Button variant="primary" size="xl">

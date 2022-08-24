@@ -12,6 +12,7 @@ import Pagamento from '../partials/Pagamento';
 import BannerGigante from '../partials/BannerGigante';
 import YellowSection from '../partials/YellowSection';
 import Comparacao from '../partials/Comparacao';
+import HeaderTop from '../partials/HeaderTop';
 
 function Home() {
   return (
@@ -24,6 +25,8 @@ function Home() {
       <main className="flex-grow">
 
         {/*  Page sections */}
+        <HeaderTop />
+        <Header />
         <HeroHome />
         {/* <Comparacao /> */}
         <YellowSection />

@@ -5,6 +5,7 @@ import HeroImage from '../images/hero-image.png';
 import NuvemBanner from '../images/nuvem-banner-1.png';
 import Sombra from '../images/sombra.png';
 import CapaVideo from '../images/capa-video.png';
+import ButtonComprar from '../components/ButtonComprar';
 
 function HeroHome() {
 
@@ -12,6 +13,9 @@ function HeroHome() {
 
   return (
     <section className="relative bg-[#3b9df4] md:px-36">
+    <div className='text-center py-1 bg-[#f8dd4a]'>
+      <h4>FRETE GRATIS PARA TODO BRASIL</h4>
+    </div>
 
       {/* Illustration behind hero content */}
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none" aria-hidden="true">
@@ -30,20 +34,20 @@ function HeroHome() {
         </svg>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 pb-10">
 
         {/* Hero content */}
-        <div className="pt-5 pb-12 md:pt-10 md:pb-20">
+        <div className="pt-8 pb-12 md:pt-10 md:pb-20 text-center">
 
           {/* Section header */}
           <div className="text-center md-6 z-50">
             {/* <h1 className="capitalize text-white text-3xl text-middle md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">Sabe aquela sensação de andar sobre as nuvens?</h1> */}
-            <h1 className="capitalize text-white text-3xl text-middle md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">VOCÊ NÃO PRECISA VOAR PARA SE SENTIR NAS NUVENS!</h1>
+            <h1 className="capitalize text-white text-3xl text-middle md:text-6xl font-semibold tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">VOCÊ NÃO PRECISA VOAR PARA SE SENTIR NAS NUVENS!</h1>
           </div>
 
           {/* Nuvem Banner */}
           <div className=''>
-            <div className="relative flex justify-center pt-2 mb-8 z-0 mt-8" data-aos="zoom-y-out" data-aos-delay="450">
+            <div className="relative flex justify-center pt-2 mb-5 z-0 mt-8" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="flex flex-col justify-center ">
                   <div className="animate-rotate-slow">
                     <img className="object-fill mx-auto z-0 animate-bounce-slow" src={NuvemBanner} width="768" height="380" alt="Hero" />
@@ -56,11 +60,17 @@ function HeroHome() {
           {/* <h1 className="text-white text-2xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl mb-8" data-aos="zoom-y-out"> 
           SABE AQUELA SENSAÇÃO DE ANDAR SOBRE AS NUVENS?
           </h1> */}
-          <h1 className="text-4xl text-left mb-5 md:text-6xl font-extrabold leading-tighter tracking-tighter z-10" data-aos="zoom-y-out"><span className="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 drop-shadow-md hover:drop-shadow-xl">Chinelo Tipo Nuvem</span></h1>
+          {/* <h1 className="text-4xl text-left mb-5 md:text-6xl font-extrabold leading-tighter tracking-tighter z-10 text-center" data-aos="zoom-y-out"><span className="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 drop-shadow-md hover:drop-shadow-xl">Chinelo Nuvem</span></h1> */}
+          
+          <div className="flex flex-col text-center md-6 z-50">
+            {/* <h1 className="capitalize text-white text-3xl text-middle md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">Sabe aquela sensação de andar sobre as nuvens?</h1> */}
+            <h1 className="mt-8 text-white text-xl text-middle md:text-6xl tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">Diga adeus as dores nos pés, pernas e coluna com o nosso <span className="mt-8 text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 drop-shadow-md hover:drop-shadow-xl">Chinelo Nuvem</span><br/>
+            Feito com material que adapta ao formato do <strong className='uppercase'>seu pé!</strong></h1>
+          </div>
 
           {/* Hero image */}
           <div>
-            <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
+            <div className="relative flex justify-center mb-8 mt-16" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="relative">
                 <img className="mx-auto" src={CapaVideo} width="768" height="432" alt="Hero" />
                 <div className='fill-white absolute top-0 align-middle p-28 drop-shadow-xl'>
@@ -88,8 +98,9 @@ function HeroHome() {
             
 
           </div>
-
+        
         </div>
+        <ButtonComprar className="" text="EU QUERO ME SENTIR NAS NUVENS"></ButtonComprar>
 
       </div>
     </section>

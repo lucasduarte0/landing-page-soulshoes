@@ -1,21 +1,35 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
+import Pix from '../images/pix.svg';
 
 function ButtonComprar(props) {
 
   return (
-    <section href="" className={'z-0 animate-blow ' + props.className}>  
-      <div className="bg-green-500 hover:bg-green-300 text-center text-white font-semibold rounded-2xl drop-shadow-lg">
-      <a href="https://soulshoes.mercadoshops.com.br/MLB-2750446878-chinelo-feminino-nuvem-ortopedica-eva-super-macio-off-_JM" target="_blank" rel="noreferrer">        
-        <Button variant="primary" size="xl">
-          <div className='flex flex-col tracking-wider'>
-            <h2 className='text-2xl font-bold'>{props.text}</h2>
-            <p className='text-sm mt-2 font-extralight text-green-100'>{props.subText}</p>
-          </div>
-        </Button>
-      </a>
+    <section href="" className={'z-0 flex flex-col justify-center ' + props.className}>  
+      <div className="bg-green-500 hover:bg-green-300 text-center text-white font-semibold rounded-2xl drop-shadow-lg animate-blow">
+        <a href="https://soulshoes.mercadoshops.com.br/MLB-2750446878-chinelo-feminino-nuvem-ortopedica-eva-super-macio-off-_JM" target="_blank" rel="noreferrer">        
+          <Button variant="primary" size="xl">
+            <div className='flex flex-col tracking-wider'>
+              <h2 className='text-2xl font-bold'>{props.text}</h2>
+              <p className='text-sm mt-2 font-extralight text-green-100'>{props.subText}</p>
+            </div>
+          </Button>
+        </a>
+      </div>    
+      <div className='w-3/4 self-center'>
+        <div id="credit-cards" className="flex space-x-1 justify-center mt-3 max-w-1">
+            <img className="h-6" loading="lazy" src="https://cdn.shopify.com/s/files/1/0648/2021/6052/t/2/assets/amex.svg" />
+            <img className="h-6" loading="lazy" src="https://cdn.shopify.com/s/files/1/0648/2021/6052/t/2/assets/boleto.svg" />
+            <img className="h-6" loading="lazy" src="https://cdn.shopify.com/s/files/1/0648/2021/6052/t/2/assets/mastercard.svg" />
+            <img className="h-6" loading="lazy" src="https://cdn.shopify.com/s/files/1/0648/2021/6052/t/2/assets/visa.svg" />
+            <img className="h-6" loading="lazy" src="https://cdn.shopify.com/s/files/1/0648/2021/6052/t/2/assets/elo.svg" />
+            <img className="h-6 bg-white rounded p-1.5" src={Pix} />
+        </div>
+
       </div>
+   
+
     </section>  
   );
 }

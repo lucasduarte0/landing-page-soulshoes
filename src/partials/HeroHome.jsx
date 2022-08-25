@@ -69,7 +69,7 @@ function HeroHome() {
 
           {/* Hero image */}
           <div>
-            <div className="relative flex justify-center mb-8 mt-16" data-aos="zoom-y-out" data-aos-delay="450">
+            <div className="relative flex justify-center mb-3 mt-16" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="relative">
                 <img className="mx-auto" src={CapaVideo} width="768" height="432" alt="Hero" />
                 <div className='fill-white absolute top-0 align-middle p-28 drop-shadow-xl'>
@@ -99,7 +99,10 @@ function HeroHome() {
           </div>
         
         </div>
-        <ButtonComprar className="" text="EU QUERO ME SENTIR NAS NUVENS"></ButtonComprar>
+        <h1 className="mb-6 text-white text-3xl md:text-3xl text-center leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10 font-bold" data-aos="zoom-y-out">
+          AGORA É SUA VEZ!
+        </h1>
+        <ButtonComprar className="" text="EU QUERO ME SENTIR NAS NUVENS!" subText="OFERTA POR TEMPO ILIMITADO!"></ButtonComprar>
 
       </div>
     </section>

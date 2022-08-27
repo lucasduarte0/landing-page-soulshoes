@@ -33,10 +33,10 @@ function Features() {
 
       <div className="py-5 relative max-w-6xl mx-auto px-4 sm:px-6">   
 
-      <h4 className={"text-xl font-normal text-center mb-3 text-white"}>Alem de elegante, o Chinelo Nuvem conta com a melhor tecnologia do mercado trazendo mais conforto e inovação a qualquer momento em qualquer lugar.</h4>
+      <h4 className={"h4 font-normal text-center mb-3 md:mt-10 text-white"}>Alem de elegante, o Chinelo Nuvem conta com a melhor tecnologia do mercado trazendo mais conforto e inovação a qualquer momento em qualquer lugar.</h4>
       
 
-        <div className="pt-6 md:pt-20">
+        <div className="pt-6 md:pt-0">
 
           {/* Section header */}
           {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
@@ -194,7 +194,7 @@ Seguro e confiável!</div>
               </div>
             </div>
 
-            <h4 className={"text-2xl font-semibold leading-snug text-center mb-3 text-white"}>Chegou a sua vez de andar nas nuvens! </h4>
+            <h4 className={"text-2xl font-semibold leading-snug text-center mb-3 text-white md:mt-8"}>Chegou a sua vez de andar nas nuvens! </h4>
             <h2 className="text-3xl font-semibold leading-snug text-center mb-3 text-white">VOCÊ ESTA PRONTO(A)?</h2> 
 
             <ButtonComprar titleColor="white" text="ME SINTO PRONTO(A)!" subText="SÓ HOJE POR APENAS R$127,90"></ButtonComprar>   

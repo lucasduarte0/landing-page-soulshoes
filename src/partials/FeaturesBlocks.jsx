@@ -10,7 +10,7 @@ import ShippingSvg from '../images/shipping-fast.svg'
 
 function FeaturesBlocks() {
   return (
-    <section className="relative md:px-36">
+    <section className="relative md:px-36 md:mb-16">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 pointer-events-none" aria-hidden="true"></div>
@@ -20,7 +20,7 @@ function FeaturesBlocks() {
         <div className="mb-5 py-0 md:py-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-0">
             <h2 className="text-2xl font-semibold mb-1">Afinal, é como pisar em nuvens mesmo?</h2>
             <h1 className="text-3xl font-extrabold mb-3">Com certeza!</h1>
             <p className="text-xm text-gray-600 mb-10">
@@ -32,8 +32,7 @@ function FeaturesBlocks() {
 
           {/* Items */}
 
-          <div className="max-w-xs mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
-
+          <div className="max-w-xs mx-auto grid gap-6 md:grid-cols-3 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
             {/* 1st item */}
 
 

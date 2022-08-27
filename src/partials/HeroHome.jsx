@@ -38,7 +38,7 @@ function HeroHome() {
           {/* Section header */}
           <div className="text-center w-full z-50">
             {/* <h1 className="capitalize text-white text-3xl text-middle md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">Sabe aquela sensação de andar sobre as nuvens?</h1> */}
-            <h1 className="capitalize text-white text-3xl text-middle md:text-6xl font-semibold tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">VOCÊ NÃO PRECISA VOAR PARA SE SENTIR NAS NUVENS!</h1>
+            <h1 className="capitalize text-white h1 text-middle font-semibold tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">VOCÊ NÃO PRECISA VOAR PARA SE SENTIR NAS NUVENS!</h1>
           </div>
 
           {/* Nuvem Banner */}
@@ -72,7 +72,7 @@ function HeroHome() {
             <div className="relative flex justify-center mb-3 mt-16" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="relative">
                 <img className="mx-auto" src={CapaVideo} width="768" height="432" alt="Hero" />
-                <div className='fill-white absolute top-0 align-middle p-28 drop-shadow-xl'>
+                <div className='fill-white absolute top-0 align-middle drop-shadow-xl'>
                   <svg className="w-full h-full" id="hero-ill-d" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
                   <path d="M25 42c-9.4 0-17-7.6-17-17S15.6 8 25 8s17 7.6 17 17-7.6 17-17 17zm0-32c-8.3 0-15 6.7-15 15s6.7 15 15 15 15-6.7 15-15-6.7-15-15-15z"/>
                   <path d="M20 33.7V16.3L35 25l-15 8.7zm2-14v10.5l9-5.3-9-5.2z"/>

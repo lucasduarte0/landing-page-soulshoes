@@ -28,7 +28,7 @@ function Testimonials() {
         <div className="md:py-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-6 md:pb-16">
+          <div className="max-w-3xl mx-auto text-center pb-6 md:pb-8">
             <h2 className="h2 text-white">Mais de 10 mil clientes satisfeitos</h2>
           </div>
 
@@ -56,12 +56,15 @@ function Testimonials() {
               </div>
 
             </div>
-          </div> */}     
+          </div> */}   
 
 
         </div>
-      </div>
-    <Testi></Testi>
+      </div>        
+      <Testi></Testi>  
+
+
+    
     </section>
   );
 }

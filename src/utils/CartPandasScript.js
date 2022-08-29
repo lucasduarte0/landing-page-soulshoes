@@ -17,7 +17,15 @@
         }
         createIframe(t, e) {
             let o = document.createElement("iframe");
-            o.style.width = "100%", o.style.height = "100%", o.style.display = "none", o.style.overflowY = "hidden", o.className = "cartx-buy-button-frame_" + e, o.className += " buy-button-frame", o.setAttribute("frameBorder", "0"), o.setAttribute("scrolling", "no"), t.appendChild(o)
+            o.style.width = "100%", 
+            o.style.height = "100%", 
+            o.style.display = "none", 
+            o.style.overflowY = "hidden", 
+            o.className = "cartx-buy-button-frame_" + e, 
+            o.className += " buy-button-frame", 
+            o.setAttribute("frameBorder", "0"), 
+            o.setAttribute("scrolling", "no"), 
+            t.appendChild(o)
         }
         loadContent(t, e) {
             let o = document.querySelector("iframe.cartx-buy-button-frame_" + e);
@@ -30,18 +38,44 @@
         }
         setOptions(t) {
             let e = {};
-            return t.showImage && (e.showImage = t.showImage), t.showTitle && (e.showTitle = t.showTitle), t.showPrice && (e.showPrice = t.showPrice), t.showDescription && (e.showDescription = t.showDescription), t.descriptionLength && (e.descriptionLength = t.descriptionLength), e
+            return t.showImage && (e.showImage = t.showImage), 
+                t.showTitle && (e.showTitle = t.showTitle), 
+                t.showPrice && (e.showPrice = t.showPrice), 
+                t.showDescription && (e.showDescription = t.showDescription), 
+                t.descriptionLength && (e.descriptionLength = t.descriptionLength), 
+                e
         }
     };
     let e = document.getElementsByClassName("cartx-buy-button");
+    
     Array.prototype.forEach.call(e, ((t, e) => {
         let o = document.querySelector("iframe.cartx-buy-button-frame_" + e);
         o.onload = () => {
             setTimeout((function() {
                 o.style.height = o.contentDocument.body.scrollHeight + 20 + "px"
+
             }), 500)
         }
-    }))
+    }))   
+
+    $( document ).ready(function() {
+
+        console.log("Okk")
+      });
+       
+
+    
 
 
 }(window);
+
+
+  
+  
+  
+  
+
+
+
+
+

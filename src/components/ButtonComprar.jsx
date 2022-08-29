@@ -6,7 +6,7 @@ import Pix from '../images/pix.svg';
 function ButtonComprar(props) {
 
   return (
-    <section href="" className={'z-0 flex flex-col justify-center ' + props.className}>  
+    <section href="" id='bt-compra' className={'z-0 flex flex-col justify-center ' + props.className}>  
       <div className="bg-green-500 hover:bg-green-300 text-center text-white font-semibold rounded-2xl drop-shadow-lg animate-blow">
         <a href="https://soulshoes.mercadoshops.com.br/MLB-2750446878-chinelo-feminino-nuvem-ortopedica-eva-super-macio-off-_JM" target="_blank" rel="noreferrer">        
           <Button variant="primary" size="xl">

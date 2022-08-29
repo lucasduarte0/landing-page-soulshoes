@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import ButtonComprar from '../components/ButtonComprar';
+import EmbedCartPanda from '../components/EmbedCartPanda';
 import ChTorcendo from '../images/banner-bg-amarelo-nv2.png'
 import ChTorcendo4 from '../images/banner-torcendo-nuvem-4.jpg'
 import NuvemFundo1 from '../images/nuvem-fundo-azul.png'
@@ -11,7 +12,9 @@ function YellowSection() {
   return (
     <section className="relative md:px-36 bg-[#f8dd4a]">
 
+
       <div className="max-w-6xl mx-auto pt-7">
+      <EmbedCartPanda />
       
         <div className="flex justify-center py-0 md:py-20">
 

@@ -112,14 +112,40 @@ module.exports = {
         '98': '.98'
       },
       animation: {
+        "bounce-slow": 'bouncee 2s ease-in-out infinite',
+        "rotate-slow": 'spinn 4s linear infinite',
         float: 'float 3s ease-in-out infinite',
+        blow: 'bloww 1s ease-in-out infinite',
       },
+
       keyframes: {
-        float: {
-          '0%, 100%': { transform: 'translateY(0)', },
-          '50%': { transform: 'translateY(-5%)', },
+        bloww: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.04)' },
+        },
+        bounce: {
+          '0%, 100%': { transform: 'translateY(0%)' },
+          '50%': { transform: 'translateY(-5%)' },
+        },
+        bouncee: {
+          '0%': { transform: 'translateY(0%)', 'animation-timing-function': 'cubic-bezier(0, 0, 0.2, 1)'  },
+          '50%': { transform: 'translateY(-10%)', 'animation-timing-function': 'cubic-bezier(0.8, 0, 1, 1)' },
+          '100%': { transform: 'translateY(0%)', 'animation-timing-function': 'cubic-bezier(0, 0, 0.2, 1)' },
+        },
+        spinn: {
+          '0%': { transform: 'rotate(-5deg)', 'animation-timing-function': 'cubic-bezier(0.8, 1, 1, 1)' },
+          '20%': { transform: 'rotate(0deg)', 'animation-timing-function': 'cubic-bezier(1, 1, 1, 1)' },
+          '40%': { transform: 'rotate(5deg)', 'animation-timing-function': 'cubic-bezier(1, 1, 1, 1)' },
+          '60%': { transform: 'rotate(0deg)', 'animation-timing-function': 'cubic-bezier(1, 1, 1, 1)' },
+          '100%': { transform: 'rotate(-5deg)', 'animation-timing-function': 'cubic-bezier(1, 1, 1, 0.8)' },
         },
       },
+      // keyframes: {
+      //   bounce: {
+      //     '0%, 100%': { transform: 'translateY(0)' },
+      //     '50%': { transform: 'translateY(-5%)' },
+      //   }
+      // },
       zIndex: {
         '-1': '-1',
       },

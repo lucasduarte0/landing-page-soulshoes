@@ -2,16 +2,17 @@ import React, { useState } from 'react';
 import Modal from '../utils/Modal';
 
 import HeroImage from '../images/hero-image.png';
-import NuvemBanner from '../images/nuvem-banner.png';
+import NuvemBanner from '../images/nuvem-banner-1.png';
+import Sombra from '../images/sombra.png';
 import CapaVideo from '../images/capa-video.png';
+import ButtonComprar from '../components/ButtonComprar';
 
 function HeroHome() {
 
   const [videoModalOpen, setVideoModalOpen] = useState(false);
 
   return (
-    <section className="relative bg-[#3b9df4] md:px-36">
-
+    <section className="relative bg-[#3b9df4] md:px-3 px-4">
       {/* Illustration behind hero content */}
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none" aria-hidden="true">
         <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
@@ -29,47 +30,49 @@ function HeroHome() {
         </svg>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 pb-10">
 
         {/* Hero content */}
-        <div className="pt-20 pb-12 md:pt-40 md:pb-20">
+        <div className="pt-8 pb-12 md:pt-10 md:pb-20 text-center">
 
           {/* Section header */}
-          <div className="text-center md-6">
-            <h1 className="text-white text-5xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl" data-aos="zoom-y-out">Novo </h1>
-            <h1 className="text-4xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter" data-aos="zoom-y-out"><span className="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 drop-shadow-md hover:drop-shadow-xl">Chinelo Nuvem</span></h1>
-            {/* <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
-              <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
-                <div>
-                  <a className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
-                </div>
-                <div>
-                  <a className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
-                </div>
-              </div>
-            </div> */}
+          <div className="text-center w-full z-50">
+            {/* <h1 className="capitalize text-white text-3xl text-middle md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">Sabe aquela sensação de andar sobre as nuvens?</h1> */}
+            <h1 className="capitalize text-white h1 text-middle font-semibold tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">VOCÊ NÃO PRECISA VOAR PARA SE SENTIR NAS NUVENS!</h1>
           </div>
 
           {/* Nuvem Banner */}
-          <div>
-            <div className="relative flex justify-center mb-8 " data-aos="zoom-y-out" data-aos-delay="450">
-              <div className="flex flex-col justify-center">
-                <img className="object-fill mx-auto" src={NuvemBanner} width="768" height="380" alt="Hero" />
+          <div className=''>
+            <div className="relative flex justify-center pt-2 mb-5 z-0 mt-8" data-aos="zoom-y-out" data-aos-delay="450">
+              <div className="flex flex-col justify-center ">
+                  <div className="animate-rotate-slow">
+                    <img className="object-fill mx-auto z-0 animate-bounce-slow" src={NuvemBanner} width="768" height="380" alt="Hero" />
+                  </div>
+                <img className="object-fill mx-auto z-0" src={Sombra} width="768" height="380" alt="Hero" />
               </div>
             </div>
           </div>
 
-          <h1 className="text-white text-2xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl mb-8" data-aos="zoom-y-out">
-          SABE AQUELA SENSAÇÃO DE ANDAR SOBRE AS NUVEMS? 
-          </h1>
+          {/* <h1 className="text-white text-2xl text-left md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl mb-8" data-aos="zoom-y-out"> 
+          SABE AQUELA SENSAÇÃO DE ANDAR SOBRE AS NUVENS?
+          </h1> */}
+          {/* <h1 className="text-4xl text-left mb-5 md:text-6xl font-extrabold leading-tighter tracking-tighter z-10 text-center" data-aos="zoom-y-out"><span className="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 drop-shadow-md hover:drop-shadow-xl">Chinelo Nuvem</span></h1> */}
+          
+          <div className="flex bg-black bg-opacity-10 flex-col text-center p-6 z-50 rounded-3xl">
+            {/* <h1 className="capitalize text-white text-3xl text-middle md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">Sabe aquela sensação de andar sobre as nuvens?</h1> */}
+            <h1 className="text-white text-xl md:text-3xl text-middle tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">
+            Diga adeus as dores nos pés, pernas e coluna com o nosso <br/></h1>
+            <span className="mb-2 md:text-5xl text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 drop-shadow-md hover:drop-shadow-xl shadow-pink-500">
+            Chinelo Nuvem</span>              
+            <h1 className="text-white text-xl text-middle md:text-3xl tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10">Feito com material que adapta ao formato do <strong className='uppercase'>seu pé!</strong></h1>
+          </div>
 
           {/* Hero image */}
           <div>
-            <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
+            <div className="relative flex justify-center mb-3 mt-16" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="relative">
                 <img className="mx-auto" src={CapaVideo} width="768" height="432" alt="Hero" />
-                <div className='fill-white absolute top-0 align-middle p-28 drop-shadow-xl'>
+                <div className='fill-white absolute top-0 align-middle drop-shadow-xl'>
                   <svg className="w-full h-full" id="hero-ill-d" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
                   <path d="M25 42c-9.4 0-17-7.6-17-17S15.6 8 25 8s17 7.6 17 17-7.6 17-17 17zm0-32c-8.3 0-15 6.7-15 15s6.7 15 15 15 15-6.7 15-15-6.7-15-15-15z"/>
                   <path d="M20 33.7V16.3L35 25l-15 8.7zm2-14v10.5l9-5.3-9-5.2z"/>
@@ -94,8 +97,12 @@ function HeroHome() {
             
 
           </div>
-
+        
         </div>
+        <h1 className="mb-6 text-white text-3xl md:text-3xl text-center leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10 font-bold" data-aos="zoom-y-out">
+          AGORA É SUA VEZ!
+        </h1>
+        <ButtonComprar className="" text="EU QUERO ME SENTIR NAS NUVENS!" subText="OFERTA POR TEMPO ILIMITADO!"></ButtonComprar>
 
       </div>
     </section>

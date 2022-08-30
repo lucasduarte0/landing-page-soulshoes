@@ -1,6 +1,6 @@
 .carousel-root {
     width: 64% !important;
-    margin: auto !important;
+    margin: 0 !important;
     margin-top: 10px !important;
   }
   
@@ -103,7 +103,7 @@
   @media only screen and (max-width: 934px) {
     .carousel-root {
       outline: 0;
-      width: 93% !important;
+      width: 100% !important;
       margin: auto !important;
     }
   
@@ -113,7 +113,7 @@
     .myCarousel {
       background: #fafafa;
       margin-top: -9%;
-      width: 92%;
+      width: 80% !important;
       margin-left: auto;
       margin-right: auto;
       padding-top: 8%;

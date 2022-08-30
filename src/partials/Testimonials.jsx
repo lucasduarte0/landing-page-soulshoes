@@ -1,10 +1,12 @@
 import React from 'react';
+import EmbedCartPanda from '../components/EmbedCartPanda.jsx';
+import Testi from '../components/Testi.jsx';
 import Testimonial from "../components/Testimonial.jsx";
 
 
 function Testimonials() {
   return (
-    <section className="relative bg-[#da5aaf] md:px-36">
+    <section className="relative bg-[#da5aaf] pb-10 md:px-36 ">
 
       {/* Illustration behind content */}
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -mb-32" aria-hidden="true">
@@ -23,13 +25,12 @@ function Testimonials() {
         </svg>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20">
+      <div className="max-w-6xl mx-auto px-10 sm:px-6">
+        <div className="md:py-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 text-white mb-4">Mais de 10mil pessoas já avaliaram o produto</h2>
-            <p className="text-xl text-gray-200" data-aos="zoom-y-out">Sinta como se estivesse pisando nas nuvems</p>
+          <div className="max-w-3xl mx-auto text-center pb-6 md:pb-8">
+            <h2 className="h2 text-white">Mais de 10 mil clientes satisfeitos</h2>
           </div>
 
           {/* Items */}
@@ -56,12 +57,17 @@ function Testimonials() {
               </div>
 
             </div>
-          </div> */}
-          <Testimonial></Testimonial>
+          </div> */}   
 
 
         </div>
-      </div>
+      </div>        
+      <Testi></Testi>  
+
+      <EmbedCartPanda />
+
+
+    
     </section>
   );
 }

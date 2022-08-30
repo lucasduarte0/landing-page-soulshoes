@@ -32,10 +32,11 @@ function Features() {
       <div className="absolute inset-0 pointer-events-none mb-16" aria-hidden="true"></div>      
 
       <div className="py-5 relative max-w-6xl mx-auto px-4 sm:px-6">   
-      
-      <ButtonComprar titleColor="white"></ButtonComprar>   
 
-        <div className="pt-12 md:pt-20">
+      <h4 className={"h4 font-normal text-center mb-3 md:mt-10 text-white"}>Alem de elegante, o Chinelo Nuvem conta com a melhor tecnologia do mercado trazendo mais conforto e inovação a qualquer momento em qualquer lugar.</h4>
+      
+
+        <div className="pt-6 md:pt-0">
 
           {/* Section header */}
           {/* <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
@@ -47,13 +48,89 @@ function Features() {
           <div className="md:grid-cols-2 md:gap-6">
 
             {/* Content */}
-            <div className="max-w-xl mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
+            <div className="w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="text-white h3 mb-3">Vantagens:</h3>
                 {/* <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p> */}
               </div>
               {/* Tabs buttons */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 md:mb-0">
+              <a
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  href="#0"
+                  onClick={(e) => { e.preventDefault(); setTab(1); }}
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Super Macio</div>
+                    <div className="text-gray-600">Feito com uma camada de 3cm de E.V.A, o <strong>Chinelo Nuvem</strong> vai te proporcionar maior conforto para realizar as tarefas do seu dia! </div>
+                  </div>
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
+                    </svg>
+                  </div>
+                </a>
+                <a
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  href="#0"
+                  onClick={(e) => { e.preventDefault(); setTab(1); }}
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Leve e confortável</div>
+                    <div className="text-gray-600">Pesando apenas 150g, nosso <strong>Chinelo Nuvem</strong> te acompanha em todas as ocasiões sem fazer feio! 
+Seguro e confiável!</div>
+                  </div>
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
+                    </svg>
+                  </div>
+                </a>
+                <a
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  href="#0"
+                  onClick={(e) => { e.preventDefault(); setTab(1); }}
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Antiderrapante</div>
+                    <div className="text-gray-600">Nosso chinelo possui tecnologia antiderrapante que garante o máximo atrito mesmo em pisos molhados! </div>
+                  </div>
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
+                    </svg>
+                  </div>
+                </a>
+                {/* <a
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  href="#0"
+                  onClick={(e) => { e.preventDefault(); setTab(1); }}
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Durabilidade</div>
+                    <div className="text-gray-600">Textura na sola resistente ao desgaste para proteger você e sua família, o chinelo não escorrega em locais lisos.</div>
+                  </div>
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
+                    </svg>
+                  </div>
+                </a>
+                <a
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  href="#0"
+                  onClick={(e) => { e.preventDefault(); setTab(1); }}
+                >
+                  <div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Antiderrapante</div>
+                    <div className="text-gray-600">Textura na sola resistente ao desgaste para proteger você e sua família, o chinelo não escorrega em locais lisos.</div>
+                  </div>
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                    <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
+                    </svg>
+                  </div>
+                </a>
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
@@ -113,9 +190,14 @@ function Features() {
                       <path d="M11.334 8.06a.5.5 0 00-.421-.237 6.023 6.023 0 01-5.905-6c0-.41.042-.82.125-1.221a.5.5 0 00-.614-.586 6 6 0 106.832 8.529.5.5 0 00-.017-.485z" fill="#191919" fillRule="nonzero" />
                     </svg>
                   </div>
-                </a>
+                </a> */}
               </div>
             </div>
+
+            <h4 className={"text-2xl font-semibold leading-snug text-center mb-3 text-white md:mt-8"}>Chegou a sua vez de andar nas nuvens! </h4>
+            <h2 className="text-3xl font-semibold leading-snug text-center mb-3 text-white">VOCÊ ESTA PRONTO(A)?</h2> 
+
+            <ButtonComprar titleColor="white" text="ME SINTO PRONTO(A)!" subText="SÓ HOJE POR APENAS R$127,90"></ButtonComprar>   
 
             </div >
 

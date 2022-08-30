@@ -8,7 +8,7 @@ function CardList() {
 
   return (
     <div className='w-3/4 self-center'>
-        <div id="credit-cards" className="flex space-x-1 justify-center mt-3 max-w-1">
+        <div id="credit-cards" className="flex space-x-1 justify-center max-w-1 pb-3 drop-shadow-xl">
             <img className="h-6" loading="lazy" src="https://cdn.shopify.com/s/files/1/0648/2021/6052/t/2/assets/amex.svg" />
             <img className="h-6" loading="lazy" src="https://cdn.shopify.com/s/files/1/0648/2021/6052/t/2/assets/boleto.svg" />
             <img className="h-6" loading="lazy" src="https://cdn.shopify.com/s/files/1/0648/2021/6052/t/2/assets/mastercard.svg" />

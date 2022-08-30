@@ -1,11 +1,12 @@
 import React from 'react';
+import EmbedCartPanda from '../components/EmbedCartPanda.jsx';
 import Testi from '../components/Testi.jsx';
 import Testimonial from "../components/Testimonial.jsx";
 
 
 function Testimonials() {
   return (
-    <section className="relative bg-[#da5aaf] md:px-36">
+    <section className="relative bg-[#da5aaf] pb-10 md:px-36 ">
 
       {/* Illustration behind content */}
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -mb-32" aria-hidden="true">
@@ -62,6 +63,8 @@ function Testimonials() {
         </div>
       </div>        
       <Testi></Testi>  
+
+      <EmbedCartPanda />
 
 
     

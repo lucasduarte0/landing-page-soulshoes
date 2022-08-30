@@ -5,6 +5,7 @@ import Footer from '../partials/Footer';
 import BannerGigante2 from '../images/banner-grande-2.png';
 import HeaderTop from '../partials/HeaderTop';
 import EmbedCartPanda from '../components/EmbedCartPanda';
+import SecurityList from '../components/SecurityList';
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
         <Header />
         <div className='bg-[#63aae4] pt-8'>
             <EmbedCartPanda />
+
 
             <img className="bg-fill w-full mx-full" src={BannerGigante2} alt="Banner Gigante" />
         </div>

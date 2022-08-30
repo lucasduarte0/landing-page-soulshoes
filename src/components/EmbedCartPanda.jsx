@@ -3,6 +3,7 @@ import {Helmet} from "react-helmet";
 import '../css/additional-styles/cart-pandas.css'
 import Button from 'react-bootstrap/Button';
 import CardList from './CardList';
+import SecurityList from './SecurityList';
 
 
 function EmbedCartPanda() {    
@@ -25,6 +26,7 @@ function EmbedCartPanda() {
         </div> */}
 
         <CardList />
+        <SecurityList />
 
     </div>    
       

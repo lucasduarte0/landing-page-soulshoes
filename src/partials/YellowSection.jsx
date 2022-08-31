@@ -8,17 +8,13 @@ function YellowSection() {
   return (
     <section className="relative md:px-36 bg-[#f8dd4a]">
 
-
-
       <div className="max-w-6xl mx-auto pt-7 drop-shadow-xl w-full mb-10">
           <div className='flex mx-6 p-5 rounded-3xl items-center bg-gradient-to-r from-green-800 to-green-500'>
             <div className='text-white h2 grow text-center'>PRODUTO 100% NACIONAL</div>
             <img className="flex-none max-h-24 p-1.5" src={Brasil} />
           </div>
-
       
         <div className="flex justify-center py-5 md:py-20">
-
 
           {/* Section header */}
           <div className="flex flex-col justify-center h4 max-w-3xl w-auto h-auto text-center px-3 pb-4 md:pb-20">

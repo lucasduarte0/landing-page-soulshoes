@@ -32,9 +32,9 @@ function Home() {
         <YellowSection />
         <FeaturesHome />
         <img className="bg-fill w-full mx-full md:px-36 bg-[#da59af]" src={NuvemBanner2} width="768" height="432" alt="Hero" />
-        <FeaturesBlocks />
         <BannerGigante />
         <Testimonials />
+        <FeaturesBlocks />
         {/* <Pagamento />
         <Newsletter /> */}
 

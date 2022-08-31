@@ -6,6 +6,7 @@ import NuvemBanner from '../images/nuvem-banner-1.png';
 import Sombra from '../images/sombra.png';
 import CapaVideo from '../images/capa-video.png';
 import ButtonComprar from '../components/ButtonComprar';
+import Brasil from '../images/brasil_flag.svg'
 
 function HeroHome() {
 
@@ -58,14 +59,20 @@ function HeroHome() {
           </h1> */}
           {/* <h1 className="text-4xl text-left mb-5 md:text-6xl font-extrabold leading-tighter tracking-tighter z-10 text-center" data-aos="zoom-y-out"><span className="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 drop-shadow-md hover:drop-shadow-xl">Chinelo Nuvem</span></h1> */}
           
-          <div className="flex bg-black bg-opacity-10 flex-col text-center p-6 z-50 rounded-3xl">
+          <div className="flex bg-white shadow-lg flex-col text-center p-6 z-50 rounded-3xl">
             {/* <h1 className="capitalize text-white text-3xl text-middle md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">Sabe aquela sensação de andar sobre as nuvens?</h1> */}
-            <h1 className="text-white text-xl md:text-3xl text-middle tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">
+            <h1 className="text-xl md:text-3xl text-middle tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">
             Diga adeus as dores nos pés, pernas e coluna com o nosso <br/></h1>
             <span className="mb-2 md:text-5xl text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 drop-shadow-md hover:drop-shadow-xl shadow-pink-500">
             Chinelo Nuvem</span>              
-            <h1 className="text-white text-xl text-middle md:text-3xl tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10">Feito com material que adapta ao formato do <strong className='uppercase'>seu pé!</strong></h1>
+            <h1 className="text-xl text-middle md:text-3xl tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10">Feito com material que adapta ao formato do <strong className='uppercase'>seu pé!</strong></h1>
           </div>
+
+          {/* <div className='flex p-2 rounded-full items-center bg-white drop-shadow-xl my-7'>
+            <div className='pl-5 text-green-700 grow font-bold text-center'>PRODUTO 100% NACIONAL</div>
+            <img className="flex-none max-h-10 m-1.5" src={Brasil} />
+          </div> */}
+
 
           {/* Hero image */}
           <div>

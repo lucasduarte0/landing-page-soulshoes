@@ -11,8 +11,8 @@ function ButtonFixed(props) {
 
         <div className='flex inline'>
             
-            <div id="bt-compra-fixo" className='flex flex-grow flex-col tracking-wider border-r-2 hover:bg-green-400 hover:text-5xl'>
-              <Link to="/select-page">
+            <div className='flex flex-grow flex-col tracking-wider border-r-2 hover:bg-green-400 hover:text-5xl'>
+              <Link id="bt-compra-fixo" to="/select-page">
                 <h2 className='text-xl font-bold'>{props.text}</h2>
                 <p className='text-xs font-extralight text-green-100'>{props.subText}</p>                
               </Link>

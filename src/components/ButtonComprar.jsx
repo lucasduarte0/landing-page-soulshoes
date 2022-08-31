@@ -23,13 +23,13 @@ function ButtonComprar(props) {
   };
 
   return (
-    <section href="" className={'z-0 flex flex-col justify-center ' + props.className}>  
+    <section href="" id='bt-compra' className={'z-0 flex flex-col justify-center ' + props.className}>  
       
 
 
       <div className="bg-green-500 hover:bg-green-300 text-center text-white font-semibold rounded-2xl drop-shadow-lg animate-blow">
        
-          <Button id='bt-compra' onClick={goToTop} variant="primary" size="xl">
+          <Button onClick={goToTop} variant="primary" size="xl">
             <div className='flex flex-col tracking-wider'>
               <h2 className='text-2xl font-bold'>{props.text}</h2>
               <p className='text-sm mt-2 font-extralight text-green-100'>{props.subText}</p>

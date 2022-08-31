@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
 
 function ButtonFixed(props) {
 
@@ -21,10 +22,10 @@ function ButtonFixed(props) {
         <div className='flex inline'>
             
             <div className='flex flex-grow flex-col tracking-wider border-r-2 hover:bg-green-400 hover:text-5xl'>
-              <Link onClick={goToTop}>
-                <h2 id="bt-compra-fixo" className='text-xl font-bold'>{props.text}</h2>
-                <p id="bt-compra-fixo" className='text-xs font-extralight text-green-100'>{props.subText}</p>                
-              </Link>
+              <Button id="bt-compra-fixo" onClick={goToTop}>
+                <h2 className='text-xl font-bold'>{props.text}</h2>
+                <p className='text-xs font-extralight text-green-100'>{props.subText}</p>                
+              </Button>
                 
 
             </div>

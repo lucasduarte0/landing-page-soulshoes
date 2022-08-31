@@ -9,11 +9,10 @@ import SecurityList from './SecurityList';
 function EmbedCartPanda() {    
 
   return (
-    <div id="cartpandaContainer" className="flex flex-col p-4 pt-7 justify-center bg-gray-100 m-5 mt-0 rounded-2xl drop-shadow-xl">
-            <div class="cartx-buy-button" data-buy-button="35aeea57-3192-4638-bf28-68e8f37574bd" data-shop-url="https://pagamento.soulshoess.com.br/"></div>
+    <div id="cartpandaContainer" className="flex flex-col justify-center bg-gray-100 m-5 mt-0 rounded-2xl drop-shadow-xl">
+            <div className="cartx-buy-button mx-10" data-buy-button="35aeea57-3192-4638-bf28-68e8f37574bd" data-shop-url="https://soulshoes.mycartpanda.com/"></div>
         <Helmet>
-            <script type="text/javascript" src="https://pagamento.soulshoess.com.br/js/buy-button.min.js"></script>
-
+            <script id="cartpanda" type="text/javascript" src="https://soulshoes.mycartpanda.com/js/buy-button.min.js"></script>
            
         </Helmet>  
         

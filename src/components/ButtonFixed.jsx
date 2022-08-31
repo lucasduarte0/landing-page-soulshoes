@@ -1,8 +1,17 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 
 function ButtonFixed(props) {
+
+  const goToTop = () => {
+    let y = document.getElementById("cartpandaContainer").getBoundingClientRect().top
+    let scrollY = window.scrollY 
+    console.log(y)
+    window.scrollTo({
+        top: y + scrollY - 30,
+        behavior: "smooth",
+    });
+  };
 
   return (
     <section className={'z-50 ' + props.className}>  
@@ -12,9 +21,9 @@ function ButtonFixed(props) {
         <div className='flex inline'>
             
             <div className='flex flex-grow flex-col tracking-wider border-r-2 hover:bg-green-400 hover:text-5xl'>
-              <Link id="bt-compra-fixo" to="/select-page">
-                <h2 className='text-xl font-bold'>{props.text}</h2>
-                <p className='text-xs font-extralight text-green-100'>{props.subText}</p>                
+              <Link onClick={goToTop}>
+                <h2 id="bt-compra-fixo" className='text-xl font-bold'>{props.text}</h2>
+                <p id="bt-compra-fixo" className='text-xs font-extralight text-green-100'>{props.subText}</p>                
               </Link>
                 
 

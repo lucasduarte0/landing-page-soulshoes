@@ -12,6 +12,12 @@ function ButtonFixed(props) {
         top: y + scrollY - 30,
         behavior: "smooth",
     });
+
+    window.dataLayer.push({
+      event: 'bt.compra',
+      scrollY: scrollY,
+      label: 'bt.compra.fixo'      
+    });
   };
 
   return (

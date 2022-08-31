@@ -4,6 +4,7 @@ import {
   Route,
   useLocation
 } from 'react-router-dom';
+import TagManager from 'react-gtm-module';
 
 import 'aos/dist/aos.css';
 import './css/style.css';
@@ -19,6 +20,8 @@ import Termos from './pages/Termos';
 import SelectPage from './pages/SelectPage'
 
 function App() {
+
+  TagManager.initialize({ gtmId: 'GTM-NMPRTTM' })
 
   const location = useLocation();
 

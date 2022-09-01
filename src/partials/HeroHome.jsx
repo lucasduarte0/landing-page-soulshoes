@@ -4,7 +4,7 @@ import Modal from '../utils/Modal';
 import HeroImage from '../images/hero-image.png';
 import NuvemBanner from '../images/nuvem-banner-1.png';
 import Sombra from '../images/sombra.png';
-import CapaVideo from '../images/capa-video.png';
+import CapaVideo from '../images/thumb-nuvem.png';
 import ButtonComprar from '../components/ButtonComprar';
 
 function HeroHome() {
@@ -71,7 +71,7 @@ function HeroHome() {
           <div>
             <div className="relative flex justify-center mb-3 mt-16" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="relative">
-                <img className="mx-auto" src={CapaVideo} width="768" height="432" alt="Hero" />
+                <img className="mx-auto" src={CapaVideo} width="512" height="512" alt="Hero" />
               </div>
               <button className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg" onClick={(e) => { e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} aria-controls="modal">
                 <svg className="w-6 h-6 fill-current text-gray-400 group-hover:text-blue-600 flex-shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -85,10 +85,9 @@ function HeroHome() {
             {/* Modal */}
             <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>
               <div className="relative pb-9/16">
-                <iframe className="absolute w-full h-full" src="https://player.vimeo.com/video/670232109?h=6d52a47cdc" width="640" height="853" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                <iframe className="absolute w-full h-full" src="https://player.vimeo.com/video/745567092?h=8ca6283521" width="640" height="853" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
               </div>
             </Modal>
-            
 
           </div>
         

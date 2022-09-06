@@ -19,16 +19,6 @@ function FeaturesBlocks() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="mb-5 py-0 md:py-20">
 
-          {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-0">
-            <h2 className="text-2xl font-semibold mb-1">Afinal, é como pisar em nuvens mesmo?</h2>
-            <h1 className="text-3xl font-extrabold mb-3">Com certeza!</h1>
-            <p className="text-xm text-gray-600 mb-10">
-              O Chinelo Nuvem foi desenvolvido para se adequar aos seus pés como uma palmilha ortopédica.<br></br> 
-              Sua espessura extra estimula o contato com a sola do pé, fazendo a melhor distribuição do seu peso diminuindo pontos de pressão específicos, trazendo maior conforto e segurança durante o uso!<br></br>
-               </p>
-
-          </div>
 
           {/* Items */}
 
@@ -59,6 +49,18 @@ function FeaturesBlocks() {
           </div>
 
         </div>
+
+          {/* Section header */}
+          <div className="max-w-3xl mx-auto text-center md:pb-0">
+            <h2 className="text-2xl font-semibold mb-1">Afinal, é como pisar em nuvens mesmo?</h2>
+            <h1 className="text-3xl font-extrabold mb-3">Com certeza!</h1>
+            <p className="text-xm text-gray-600 mb-10">
+              O Chinelo Nuvem foi desenvolvido para se adequar aos seus pés como uma palmilha ortopédica.<br></br> 
+              Sua espessura extra estimula o contato com a sola do pé, fazendo a melhor distribuição do seu peso diminuindo pontos de pressão específicos, trazendo maior conforto e segurança durante o uso!<br></br>
+               </p>
+
+          </div>
+
         <h4 className="uppercase text-2xl font-bold leading-snug tracking-tight text-center mb-5">Não perca essa chance!</h4>
 
         <ButtonComprar className="md:mt-10" titleColor="gray-700" text="COMPRAR AGORA COM FRETE GRATIS!" subText="APROVEITE POR APENAS R$127,90"></ButtonComprar>

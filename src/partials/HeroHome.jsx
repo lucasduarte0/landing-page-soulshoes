@@ -60,11 +60,11 @@ function HeroHome() {
           
           <div className="flex bg-black bg-opacity-10 flex-col text-center p-6 z-50 rounded-3xl">
             {/* <h1 className="capitalize text-white text-3xl text-middle md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">Sabe aquela sensação de andar sobre as nuvens?</h1> */}
-            <h1 className="text-white text-xl md:text-3xl text-middle tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">
-            Diga adeus as dores nos pés, pernas e coluna com o nosso <br/></h1>
-            <span className="mb-2 md:text-5xl text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 drop-shadow-md hover:drop-shadow-xl shadow-pink-500">
-            Chinelo Nuvem</span>              
-            <h1 className="text-white text-xl text-middle md:text-3xl tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10">Feito com material que adapta ao formato do <strong className='uppercase'>seu pé!</strong></h1>
+            <h2 className="text-white text-lg md:text-3xl text-middle tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">
+            Diga adeus as dores nos pés, pernas e coluna com o nosso <br/></h2>
+            <h1 className="my-4 md:text-5xl text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#fecce5] to-[#fecce5] hover:drop-shadow-xl shadow-pink-500 leading-10">
+            Chinelo Nuvem Soul Ortopédico</h1>              
+            <h2 className="text-white text-lg md:text-3xl text-middle tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10">Feito com material que adapta ao formato do <strong className='uppercase'>seu pé!</strong></h2>
           </div>
 
           {/* Hero image */}

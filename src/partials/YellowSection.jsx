@@ -17,7 +17,7 @@ function YellowSection() {
         <div className="flex justify-center py-5 md:py-20">
 
           {/* Section header */}
-          <div className="flex flex-col justify-center h4 max-w-3xl w-auto h-auto text-center px-3 pb-4 md:pb-20">
+          <div className="flex flex-col justify-center text-xl max-w-3xl w-auto h-auto text-center px-3 pb-4 md:pb-20">
             <p className="mt-3 mb-4 border-gray-500 text-gray-800 text-middle md:text-4xl leading-tighter tracking-tighter z-10">Você não precisa mais passar por dores nos pés no fim do dia. </p>
             {/* <img className="pl-8 drop-shadow-xl" src={NuvemFundo1}></img> */}
             <p className="mt-3 mb-4 border-gray-500 text-gray-800 text-middle md:text-3xl leading-tighter tracking-tighter z-10">Nosso <strong className='text-fuchsia-500'>Chinelo Nuvem</strong> foi criado para trazer <strong>elegância</strong> sem perder a <strong>conforto</strong>!</p> 

@@ -5,7 +5,7 @@ import HeroHome from '../partials/HeroHome';
 import FeaturesHome from '../partials/Features';
 import FeaturesBlocks from '../partials/FeaturesBlocks';
 import Testimonials from '../partials/Testimonials';
-import Newsletter from '../partials/Newsletter';
+import CompraReembolso from '../partials/CompraReembolso';
 import Footer from '../partials/Footer';
 import NuvemBanner2 from '../images/nuvem-banner-2.png';
 import Pagamento from '../partials/Pagamento';
@@ -32,6 +32,7 @@ function Home() {
         <YellowSection />
         <FeaturesHome />
         <img className="bg-fill w-full mx-full md:px-36 bg-[#da59af]" src={NuvemBanner2} width="768" height="432" alt="Hero" />
+        <CompraReembolso />
         <FeaturesBlocks />
         <BannerGigante />
         <Testimonials />

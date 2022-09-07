@@ -10,11 +10,8 @@ import "../css/styleIframe.css"
 
 function Atacado() {
 
-  const iframeRef = useRef(null)
-  const [scroll, scrollHeight] = useState()
-
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden md:w-full md:justify-center">
+    <div className="flex flex-col md:px-96 min-h-screen overflow-hidden md:w-full md:justify-center">
 
       {/*  Site header */}
       {/* <Header /> */}
@@ -28,7 +25,7 @@ function Atacado() {
 
         
         <div className='bg-[#63aae4] pt-8'>
-            <div id="hubspot-form" className='mx-4 bg-white pb-0 p-6 rounded-2xl drop-shadow-lg'>
+            <div id="hubspot-form" className='md:w-fit md:items-center mx-4 bg-white pb-0 p-6 rounded-2xl drop-shadow-lg'>
             <h3 className='h4'>Formulário Venda Atacado</h3>
             <div className="iframe-container "><iframe loading="lazy" src="https://lucasduarte0.github.io/hubspot/" height="100%" width="100%"></iframe></div>
               

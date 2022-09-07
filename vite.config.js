@@ -1,8 +1,6 @@
 import { defineConfig } from 'vite'
 import postcss from './postcss.config.js'
 import react from '@vitejs/plugin-react'
-import Pages from 'vite-plugin-pages'
-import generateSitemap from 'vite-plugin-pages-sitemap'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -13,10 +11,7 @@ export default defineConfig({
     postcss,
   },
   plugins: [
-      react(),
-      Pages({
-        onRoutesGenerated: routes => (generateSitemap({ routes })),
-      }),],
+      react(),],
   resolve: {
     alias: [
       {

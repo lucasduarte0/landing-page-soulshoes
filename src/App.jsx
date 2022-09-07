@@ -18,6 +18,8 @@ import ResetPassword from './pages/ResetPassword';
 import QuemSomos from './pages/QuemSomos';
 import Termos from './pages/Termos';
 import SelectPage from './pages/SelectPage'
+import FormAtacado from './pages/Atacado';
+import Atacado from './pages/Atacado';
 
 function App() {
 
@@ -50,6 +52,8 @@ function App() {
         <Route path="/quem-somos" element={<QuemSomos />} />
         <Route path="/termos" element={<Termos />} />
         <Route path="/select-page" element={<SelectPage />} />
+        <Route path="/atacado" element={<Atacado />} />
+
       </Routes>
     </>
   );  

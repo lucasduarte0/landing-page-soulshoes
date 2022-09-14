@@ -23,9 +23,9 @@ function YellowSection() {
             {/* <img className="pl-8 drop-shadow-xl" src={NuvemFundo1}></img> */}
             <p className="mt-3 mb-4 border-gray-500 text-gray-800 text-middle md:text-3xl leading-tighter tracking-tighter z-10">Nosso <strong className='text-fuchsia-500'>Chinelo Nuvem</strong> foi criado para trazer <strong>elegância</strong> sem perder a <strong>conforto</strong>!</p> 
             <img className="self-center" src={SemDores} height="250" width="250"></img>
-            <div className='overflow-hidden w-3/4 h-96 flex self-center items-center text-lg rounded-3xl shadow-xl transition duration-300 ease-in-out mb-3'>
+            {/* <div className='overflow-hidden w-3/4 h-96 flex self-center items-center text-lg rounded-3xl shadow-xl transition duration-300 ease-in-out mb-3'>
               <img className="bg-fill w-full mx-full" src={Gif} alt="Banner Gigante" />              
-            </div>    
+            </div>     */}
             <h4 className={"uppercase text-2xl font-medium leading-snug text-center mb-3 md:text-4xl text-gray-800"}>Diga adeus as <strong>dores!</strong></h4>
             <ButtonComprar className="px-3 mt-4 -mb-16" text="EU QUERO!" subText="FRETE GRATIS PARA TODO BRASIL"></ButtonComprar>
             

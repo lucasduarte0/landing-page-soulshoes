@@ -26,15 +26,12 @@ function Features() {
   }, [tab])
 
   return (
-    <section className="relative bg-[#da59af] md:px-36">
+    <section className="relative md:px-36">
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 pointer-events-none mb-16" aria-hidden="true"></div>      
 
-      <div className="py-5 relative max-w-6xl mx-auto px-4 sm:px-6">   
-
-      <h4 className="font-normal text-center mb-3 md:mt-10 text-white">Alem de elegante, o Chinelo Nuvem conta com a melhor tecnologia do mercado trazendo mais conforto e inovação a qualquer momento em qualquer lugar.</h4>
-      
+      <div className="py-5 relative max-w-6xl mx-auto px-4 sm:px-6">         
 
         <div className="pt-6 md:pt-0">
 
@@ -50,7 +47,7 @@ function Features() {
             {/* Content */}
             <div className="w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="text-white h3 mb-3">Vantagens:</h3>
+                <h3 className="h3 mb-3">Vantagens:</h3>
                 {/* <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p> */}
               </div>
               {/* Tabs buttons */}
@@ -103,8 +100,8 @@ function Features() {
               </div>
             </div>
 
-            <h4 className={"text-2xl font-semibold leading-snug text-center mb-3 text-white md:mt-8"}>Agora é sua vez de se sentir nas nuvens! </h4>
-            <h2 className="text-2xl font-semibold leading-snug text-center mb-3 text-white">VOCÊ ESTA PRONTO(A)?</h2> 
+            <h4 className={"text-2xl font-semibold leading-snug text-center mb-3 text-gray-800 md:mt-8"}>Agora é sua vez de se sentir nas nuvens! </h4>
+            <h2 className="text-2xl font-semibold leading-snug text-center mb-3 text-gray-800">VOCÊ ESTA PRONTO(A)?</h2> 
 
             <ButtonComprar titleColor="white" text="ESTOU PRONTO!" subText="SÓ HOJE POR APENAS R$127,90"></ButtonComprar>   
 

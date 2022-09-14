@@ -38,7 +38,7 @@ function HeroHome() {
           {/* Section header */}
           <div className="text-center w-full z-50">
             {/* <h1 className="capitalize text-white text-3xl text-middle md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">Sabe aquela sensação de andar sobre as nuvens?</h1> */}
-            <h1 className="capitalize text-white h1 text-middle font-semibold tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">VOCÊ NÃO PRECISA VOAR PARA SE SENTIR NAS NUVENS!</h1>
+            <h1 className="capitalize text-white h2 text-middle font-semibold tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">NUNCA FOI TÃO FÁCIL SE SENTIR NAS NUVENS!</h1>
           </div>
 
           {/* Nuvem Banner */}
@@ -96,7 +96,7 @@ function HeroHome() {
         <h1 className="mb-6 text-white text-3xl md:text-3xl text-center leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10 font-bold" data-aos="zoom-y-out">
           AGORA É SUA VEZ!
         </h1>
-        <ButtonComprar className="" text="EU QUERO ME SENTIR NAS NUVENS!" subText="OFERTA POR TEMPO ILIMITADO!"></ButtonComprar>
+        <ButtonComprar className="" text="QUERO ME SENTIR NAS NUVENS!" subText="OFERTA POR TEMPO ILIMITADO!"></ButtonComprar>
 
       </div>
     </section>

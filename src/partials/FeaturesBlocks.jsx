@@ -5,7 +5,10 @@ import Block1 from '../images/imagem-1.jpg'
 import Block2 from '../images/imagem-2.jpg'
 import Block3 from '../images/imagem-3.jpg'
 import Block4 from '../images/imagem-4.jpg'
-import Block5 from '../images/block5.webp'
+import Block5 from '../images/chinelo-praia.jpg'
+import Block6 from '../images/chinelo-quadricicolo.jpg'
+import Block7 from '../images/chinelo-limpo.gif'
+import Block8 from '../images/chinelo-macio.gif'
 import ShippingSvg from '../images/shipping-fast.svg'
 
 function FeaturesBlocks() {
@@ -25,26 +28,51 @@ function FeaturesBlocks() {
           <div className="max-w-xs mx-auto grid gap-6 md:grid-cols-3 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
             {/* 1st item */}
 
+            <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl border shadow-xl transition duration-300 ease-in-out mb-3'>
+              <img className="bg-fill w-full mx-full" src={Block7} width="768" height="432" alt="Banner Gigante" />
+              <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">Facíl Limpeza</h4>
+            </div>       
+
+            <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl border shadow-xl transition duration-300 ease-in-out mb-3'>
+              <img className="bg-fill w-full mx-full" src={Block5} width="768" height="432" alt="Banner Gigante" />
+              <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">A Qualquer Hora</h4>
+            </div>    
+
+            <div className='overflow-hidden w-full flex flex-col items-center text-lg rounded-3xl shadow-xl transition duration-300 ease-in-out mb-3'>
+              <img className="bg-fill w-full mx-full h-80 object-cover" src={Block8} alt="Banner Gigante" />       
+              <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">Super Macio</h4>       
+            </div>                   
+
+            {/* <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl border shadow-xl transition duration-300 ease-in-out mb-3'>
+              <img className="bg-fill w-full mx-full" src={Block8} width="768" height="432" alt="Banner Gigante" />
+              <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">Facíl Limpeza</h4>
+            </div>     */}
+
+            <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl border shadow-xl transition duration-300 ease-in-out mb-3'>
+              <img className="bg-fill w-full mx-full" src={Block6} width="768" height="432" alt="Banner Gigante" />
+              <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">Em Qualquer Lugar</h4>
+            </div>   
 
             <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl border shadow-xl transition duration-300 ease-in-out mb-3'>
               <img className="bg-fill w-full mx-full" src={Block2} width="768" height="432" alt="Banner Gigante" />
               <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">Super Macio</h4>
             </div>
             
-            <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl border shadow-xl transition duration-300 ease-in-out mb-3'>
+            {/* <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl border shadow-xl transition duration-300 ease-in-out mb-3'>
               <img className="bg-fill w-full mx-full" src={Block3} width="768" height="432" alt="Banner Gigante" />
               <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">Varias Cores</h4>
-            </div>
+            </div> */}
 
             {/* <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl border shadow-xl transition duration-300 ease-in-out mb-3'>
               <img className="bg-fill w-full mx-full" src={Block1} width="768" height="432" alt="Banner Gigante" />
               <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">Super Macio</h4>
             </div> */}
 
-            <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl border shadow-xl transition duration-300 ease-in-out mb-3'>
+            {/* <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl border shadow-xl transition duration-300 ease-in-out mb-3'>
               <img className="bg-fill w-full mx-full" src={Block4} width="768" height="432" alt="Banner Gigante" />
               <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">Super Estiloso</h4>
-            </div>                      
+            </div>      */}
+
 
           </div>
 

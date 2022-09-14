@@ -103,10 +103,10 @@ function Features() {
               </div>
             </div>
 
-            <h4 className={"text-2xl font-semibold leading-snug text-center mb-3 text-white md:mt-8"}>Chegou a sua vez de andar nas nuvens! </h4>
-            <h2 className="text-3xl font-semibold leading-snug text-center mb-3 text-white">VOCÊ ESTA PRONTO(A)?</h2> 
+            <h4 className={"text-2xl font-semibold leading-snug text-center mb-3 text-white md:mt-8"}>Agora é sua vez de se sentir nas nuvens! </h4>
+            <h2 className="text-2xl font-semibold leading-snug text-center mb-3 text-white">VOCÊ ESTA PRONTO(A)?</h2> 
 
-            <ButtonComprar titleColor="white" text="ME SINTO PRONTO(A)!" subText="SÓ HOJE POR APENAS R$127,90"></ButtonComprar>   
+            <ButtonComprar titleColor="white" text="ESTOU PRONTO!" subText="SÓ HOJE POR APENAS R$127,90"></ButtonComprar>   
 
             </div >
 

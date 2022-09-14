@@ -11,10 +11,12 @@ import Block7 from '../images/chinelo-limpo.gif'
 import Block8 from '../images/chinelo-macio.gif'
 import Svg from '../images/like-good.svg'
 import ShippingSvg from '../images/shipping-fast.svg'
+import Transicao from '../images/nuvem-transicao.png';
 
 function FeaturesBlocks() {
   return (
-    <section className="relative md:px-36 md:mb-16 bg-[#da59af] pt-8">
+    <section className="relative md:px-36 md:mb-16 bg-[#da59af]">
+      <img className="relative -top-20 -mb-10 bg-fill w-full mx-full md:px-36" src={Transicao} width="768" height="432" alt="Hero" />
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 pointer-events-none" aria-hidden="true"></div>
@@ -54,10 +56,10 @@ function FeaturesBlocks() {
               <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">Em Qualquer Lugar</h4>
             </div>   
 
-            <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl shadow-xl transition duration-300 ease-in-out mb-3 bg-white'>
+            {/* <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl shadow-xl transition duration-300 ease-in-out mb-3 bg-white'>
               <img className="bg-fill w-full mx-full" src={Block2} width="768" height="432" alt="Banner Gigante" />
               <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">Super Macio</h4>
-            </div>
+            </div> */}
             
             {/* <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl shadow-xl transition duration-300 ease-in-out mb-3 bg-white'>
               <img className="bg-fill w-full mx-full" src={Block3} width="768" height="432" alt="Banner Gigante" />
@@ -82,11 +84,11 @@ function FeaturesBlocks() {
           {/* Section header */}
           <div className="flex flex-col max-w-3xl text-white mx-auto text-center md:pb-0">
             <div className='flex flex-row'>
-              <h2 className="text-2xl font-semibold mb-1">Afinal, é como pisar em nuvens mesmo?</h2>
+              <h2 className="text-2xl font-semibold mb-1 ">Afinal, é como pisar em nuvens mesmo?</h2>
               <img className="w-20" src='https://upload.wikimedia.org/wikipedia/commons/6/63/Twemoji2_1f914.svg' />
             </div>
-            <div className='flex flex-row bg-white w-full self-center gap-4 p-3 my-6 rounded-xl p-5 justify-center'>
-              <h1 className="text-3xl text-gray-800 font-extrabold">COM CERTEZA!</h1>  
+            <div className='flex flex-row bg-white w-full self-center gap-4 p-3 my-6 rounded-xl p-5 justify-center outline outline-offset-2 outline-1'>
+              <h1 className="text-3xl text-gray-800 font-extrabold font-carter">COM CERTEZA!</h1>  
               <img className='h-10' src={Svg}/>
 
             </div>

@@ -15,7 +15,7 @@ function Footer() {
             <div className="mb-2">
               {/* Logo */}
               <Link to="/" className="inline-block md:w-32 w-1/2" aria-label="Cruip">
-                <img src={Logo}></img>
+                {/* <img src={Logo}></img> */}
               </Link>
             </div>
             <div className="text-sm text-gray-600">

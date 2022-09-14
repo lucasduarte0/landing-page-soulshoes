@@ -13,11 +13,11 @@ function ButtonFixed(props) {
         behavior: "smooth",
     });
 
-    window.dataLayer.push({
-      event: 'bt.compra',
-      scrollY: scrollY,
-      label: 'bt.compra.fixo'      
-    });
+    // window.dataLayer.push({
+    //   event: 'bt.compra',
+    //   scrollY: scrollY,
+    //   label: 'bt.compra.fixo'      
+    // });
   };
 
   return (

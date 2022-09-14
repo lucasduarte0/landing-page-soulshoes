@@ -12,7 +12,7 @@ function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
 
   return (
-    <section className="relative bg-[#3b9df4] md:px-3 px-4">
+    <section className="relative bg-[#64ABE5] md:px-3 px-4 pb-8">
       {/* Illustration behind hero content */}
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none" aria-hidden="true">
         <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
@@ -48,7 +48,7 @@ function HeroHome() {
                   <div className="animate-rotate-slow">
                     <img className="object-fill mx-auto z-0 animate-bounce-slow" src={NuvemBanner} width="768" height="380" alt="Hero" />
                   </div>
-                <img className="object-fill mx-auto z-0" src={Sombra} width="768" height="380" alt="Hero" />
+                <img className="object-fill mx-auto z-0 opacity-50" src={Sombra} width="768" height="380" alt="Hero" />
               </div>
             </div>
           </div>

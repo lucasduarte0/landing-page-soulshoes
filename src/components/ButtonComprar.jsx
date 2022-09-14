@@ -23,11 +23,11 @@ function ButtonComprar(props) {
       behavior: "smooth",
     });
 
-    window.dataLayer.push({
-      event: 'bt.compra',
-      scrollY: scrollY,
-      label: 'bt.compra.landing'      
-    });
+    // window.dataLayer.push({
+    //   event: 'bt.compra',
+    //   scrollY: scrollY,
+    //   label: 'bt.compra.landing'      
+    // });
   };
 
   return (

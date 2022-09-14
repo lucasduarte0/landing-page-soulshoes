@@ -23,7 +23,7 @@ import Atacado from './pages/Atacado';
 
 function App() {
 
-  TagManager.initialize({ gtmId: 'GTM-NMPRTTM' })
+  TagManager.initialize({ gtmId: '' })
 
   const location = useLocation();
 

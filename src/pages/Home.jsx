@@ -29,8 +29,7 @@ function Home() {
         <Header />
         <HeroHome />
         
-        <FeaturesBlocks />
-        <img className="relative -mb-5 bg-fill w-full mx-full md:px-36 bg-[#FAC05E] z-0" src={NuvemBanner2} width="768" height="432" alt="Hero" />
+        <FeaturesBlocks />        
         {/* <Comparacao /> */}
         <YellowSection />
         <CompraReembolso />

@@ -12,7 +12,7 @@ function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
 
   return (
-    <section className="relative bg-[#64ABE5] md:px-3 px-4 pb-8">
+    <section className="relative bg-[#64ABE5] md:px-36 px-4 pb-8">
       {/* Illustration behind hero content */}
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none" aria-hidden="true">
         <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
@@ -58,11 +58,11 @@ function HeroHome() {
           </h1> */}
           {/* <h1 className="text-4xl text-left mb-5 md:text-6xl font-extrabold leading-tighter tracking-tighter z-10 text-center" data-aos="zoom-y-out"><span className="bg-clip-text text-transparent bg-gradient-to-r from-fuchsia-500 to-pink-500 drop-shadow-md hover:drop-shadow-xl">Chinelo Nuvem</span></h1> */}
           
-          <div className="flex bg-black bg-opacity-10 flex-col text-center p-6 z-50 rounded-3xl">
+          <div className="flex bg-black bg-opacity-10 flex-col text-center p-6 md:p-9 z-50 rounded-3xl">
             {/* <h1 className="capitalize text-white text-3xl text-middle md:text-6xl font-extrabold leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">Sabe aquela sensação de andar sobre as nuvens?</h1> */}
             <h2 className="text-white text-lg md:text-3xl text-middle tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10" data-aos="zoom-y-out">
             Diga adeus as dores nos pés, pernas e coluna com o nosso <br/></h2>
-            <h1 className="my-4 md:text-5xl text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#fecce5] to-[#fecce5] hover:drop-shadow-xl shadow-pink-500 leading-10">
+            <h1 className="my-4 md:text-5xl text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#fecce5] to-[#fecce5] hover:drop-shadow-xl shadow-pink-500 leading-10 md:leading-relaxed">
             Chinelo Nuvem Soul Ortopédico</h1>              
             <h2 className="text-white text-lg md:text-3xl text-middle tracking-wide leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10">Feito com material que adapta ao formato do <strong className='uppercase'>seu pé!</strong></h2>
           </div>

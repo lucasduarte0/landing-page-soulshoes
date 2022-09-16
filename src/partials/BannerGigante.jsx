@@ -8,7 +8,7 @@ import CoresNuvem from "../images/imagem-3.jpg"
 function BannerGigante() {
   return (
 
-    <section className={"relative md:px-28 bg-[#64ACE6]"}>
+    <section className={"relative md:px-28 bg-[#64ACE6] md:bg-[#1F83DF]"}>
       <div className='flex flex-col box-border border-0 gap-0'>
         <img className="bg-fill md:hidden w-full mx-full" src={BannerGigante1} alt="Banner Gigante" />
         {/* <div>Teste</div> */}

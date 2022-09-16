@@ -15,8 +15,8 @@ import Transicao from '../images/nuvem-transicao.png';
 
 function FeaturesBlocks() {
   return (
-    <section className="relative md:px-36 md:mb-16 bg-[#da59af]">
-      <img className="relative -top-20 -mb-10 bg-fill w-full mx-full md:px-36" src={Transicao} width="768" height="432" alt="Hero" />
+    <section className="relative md:px-20 md:pb-12 bg-[#da59af]">
+      <img className="md:hidden relative -top-20 -mb-10 bg-fill w-full mx-full md:px-36" src={Transicao} width="768" height="432" alt="Hero" />
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 pointer-events-none" aria-hidden="true"></div>
@@ -28,22 +28,22 @@ function FeaturesBlocks() {
 
           {/* Items */}
 
-          <div className="max-w-xs mx-auto grid gap-6 md:grid-cols-3 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
+          <div className="max-w-xs mx-auto grid gap-6 lg:grid-cols-4 items-start md:max-w-2xl lg:max-w-none">
             {/* 1st item */}
 
             <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl shadow-xl transition duration-300 ease-in-out mb-3 bg-white bg-white'>
-              <img className="bg-fill w-full mx-full" src={Block7} width="768" height="432" alt="Banner Gigante" />
-              <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">Facíl Limpeza</h4>
+              <img className="bg-fill w-full mx-full aspect-square" src={Block7} width="768" height="432" alt="Banner Gigante" />
+              <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5 aspect-[5/1]">Facíl Limpeza</h4>
             </div>       
 
             <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl shadow-xl transition duration-300 ease-in-out mb-3 bg-white'>
-              <img className="bg-fill w-full mx-full" src={Block5} width="768" height="432" alt="Banner Gigante" />
-              <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">A Qualquer Hora</h4>
+              <img className="bg-fill w-full mx-full aspect-square" src={Block5} width="768" height="432" alt="Banner Gigante" />
+              <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5 aspect-[5/1]">A Qualquer Hora</h4>
             </div>    
 
-            <div className='overflow-hidden w-full flex flex-col items-center text-lg rounded-3xl shadow-xl transition duration-300 ease-in-out mb-3 bg-white'>
-              <img className="bg-fill w-full mx-full h-80 object-cover" src={Block8} alt="Banner Gigante" />       
-              <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">Super Macio</h4>       
+            <div className='overflow-hidden w-full flex flex-col lg:max-h-max items-center text-lg rounded-3xl shadow-xl transition duration-300 ease-in-out mb-3 bg-white'>
+              <img className="bg-fill w-full mx-full aspect-square object-cover" src={Block8} alt="Banner Gigante" />       
+              <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5 aspect-[5/1]">Super Macio</h4>       
             </div>                   
 
             {/* <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl shadow-xl transition duration-300 ease-in-out mb-3 bg-white'>
@@ -51,9 +51,9 @@ function FeaturesBlocks() {
               <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">Facíl Limpeza</h4>
             </div>     */}
 
-            <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl shadow-xl transition duration-300 ease-in-out mb-3 bg-white'>
-              <img className="bg-fill w-full mx-full" src={Block6} width="768" height="432" alt="Banner Gigante" />
-              <h4 className="text-2xl font-bold leading-snug tracking-tight text-center m-5">Em Qualquer Lugar</h4>
+            <div className='overflow-hidden w-full flex flex-col lg:max-h-max items-center text-lg rounded-3xl shadow-xl transition duration-300 ease-in-out mb-3 bg-white'>
+              <img className="bg-fill w-full mx-full aspect-square" src={Block6} width="768" height="432" alt="Banner Gigante" />
+              <h4 className="text-2xl font-bold tracking-tight text-center mx-3 my-5 aspect-[5/1]">Em Qualquer Lugar</h4>
             </div>   
 
             {/* <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl shadow-xl transition duration-300 ease-in-out mb-3 bg-white'>
@@ -83,9 +83,9 @@ function FeaturesBlocks() {
 
           {/* Section header */}
           <div className="flex flex-col max-w-3xl text-white mx-auto text-center md:pb-0">
-            <div className='flex flex-row'>
-              <h2 className="text-2xl font-semibold mb-1 ">Afinal, é como pisar em nuvens mesmo?</h2>
-              <img className="w-20" src='https://upload.wikimedia.org/wikipedia/commons/6/63/Twemoji2_1f914.svg' />
+            <div className='flex flex-row self-center items-center'>
+              <h2 className="text-2xl md:text-3xl font-semibold mb-1">Afinal, é como pisar em nuvens mesmo?</h2>
+              <img className="w-20 mx-3" src='https://upload.wikimedia.org/wikipedia/commons/6/63/Twemoji2_1f914.svg' />
             </div>
             <div className='flex flex-row bg-white w-full self-center gap-4 p-3 my-6 rounded-xl p-5 justify-center outline outline-offset-2 outline-1'>
               <h1 className="text-3xl text-gray-800 font-extrabold font-carter">COM CERTEZA!</h1>  
@@ -95,10 +95,10 @@ function FeaturesBlocks() {
               
         <h4 className="uppercase text-2xl text-white font-bold leading-snug tracking-tight text-center mb-5">Não perca essa chance!</h4>
 
+        <ButtonComprar className="md:mt-10" titleColor="gray-700" text="COMPRAR AGORA COM FRETE GRATIS!" subText="APROVEITE POR APENAS R$127,90"></ButtonComprar>
           </div>
 
 
-        <ButtonComprar className="md:mt-10" titleColor="gray-700" text="COMPRAR AGORA COM FRETE GRATIS!" subText="APROVEITE POR APENAS R$127,90"></ButtonComprar>
 
       </div>
     </section>

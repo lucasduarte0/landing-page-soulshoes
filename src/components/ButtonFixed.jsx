@@ -28,7 +28,7 @@ function ButtonFixed(props) {
         <div className='flex inline'>
             
             <div className='flex flex-grow  flex-col tracking-wider hover:bg-green-400 hover:text-5xl'>
-              <Button id="bt-compra-fixo rounded-none" className='flex flex-col w-full' size='sm' onClick={goToTop}>
+              <Button id="bt-compra-fixo" className='flex flex-col w-full rounded-none' size='sm' onClick={goToTop}>
                 <h2 className='text-xl font-bold rounded-none'>{props.text}</h2>
                 <p className='text-xs font-extralight text-green-100 rounded-none'>{props.subText}</p>                
               </Button>

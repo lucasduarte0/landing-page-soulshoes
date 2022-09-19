@@ -46,9 +46,9 @@ function HeroHome() {
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 pb-10">
-        <div className="flex justify-center w-fit pt-3">
+        <div className="pt-3">
           <img
-            className="flex mx-auto content-center z-0 md:max-h-36 max-h-20  "
+            className="mx-auto z-0 md:max-h-36 max-h-20  "
             src={Logo}
             alt="Hero"
           />
@@ -74,7 +74,7 @@ function HeroHome() {
                   />
                 </div>
                 <img
-                  className="object-fill mx-auto z-0 opacity-50"
+                  className="relative object-fill mx-auto z-0 opacity-20 -top-16 -mb-16"
                   src={Sombra}
                   width="768"
                   height="380"

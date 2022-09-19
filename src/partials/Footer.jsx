@@ -37,6 +37,14 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <Link
+                  to="/politica-frete"
+                  className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
+                >
+                  Política de Frete
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link
                   to="/termos"
                   className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out"
                 >

@@ -6,7 +6,7 @@ import NuvemBanner from "../images/nuvem-banner-1.png";
 import Sombra from "../images/sombra.png";
 import CapaVideo from "../images/thumb-nuvem.png";
 import ButtonComprar from "../components/ButtonComprar";
-import Logo from "../images/logo-pegada-confort.png";
+import Logo from "../images/logo.png";
 import { tituloProduto } from "../utils/Variables";
 
 function HeroHome() {

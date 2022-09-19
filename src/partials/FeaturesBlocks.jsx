@@ -6,7 +6,7 @@ import Block6 from "../images/chinelo-quadricicolo.jpg";
 import Block7 from "../images/chinelo-limpo.gif";
 import Block8 from "../images/chinelo-macio.gif";
 import Svg from "../images/like-good.svg";
-import Logo from "../images/logo-pegada-confort.png";
+import Logo from "../images/logo.png";
 import Transicao from "../images/nuvem-transicao.png";
 import { tituloProduto } from "../utils/Variables";
 

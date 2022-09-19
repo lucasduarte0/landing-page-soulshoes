@@ -46,16 +46,6 @@ function ButtonComprar(props) {
 
       </div>   
       
-      {/* <div className="bg-green-500 hover:bg-green-300 text-center text-white font-semibold rounded-2xl drop-shadow-lg animate-blow">
-        <a href="https://soulshoes.mercadoshops.com.br/MLB-2750446878-chinelo-feminino-nuvem-ortopedica-eva-super-macio-off-_JM" target="_blank" rel="noreferrer">        
-          <Button variant="primary" size="xl">
-            <div className='flex flex-col tracking-wider'>
-              <h2 className='text-2xl font-bold'>{props.text}</h2>
-              <p className='text-sm mt-2 font-extralight text-green-100'>{props.subText}</p>
-            </div>
-          </Button>
-        </a>
-      </div>     */}
       <div className="flex justify-center pt-5">
         <CardList />   
 

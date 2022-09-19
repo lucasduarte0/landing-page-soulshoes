@@ -13,7 +13,7 @@ function SecurityList() {
                 <img className='flex max-h-8' src="https://loja.contabilizelegal.com.br/assets/img/selo_loja_segura.png" />
             </li>
             <li className='px-1.5'>
-                <a href="https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Fsoulshoess.com.br">
+                <a href="https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Fpegadacomfort.com.br">
                     <img className='max-h-8' src="https://i0.wp.com/evoluadoutor.com.br/wp-content/uploads/2021/10/img-2099014932-1621343879-f28c827e64ebad0a247d537743c1f6271621343880.png" />
                 </a>
             </li>

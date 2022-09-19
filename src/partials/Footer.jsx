@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "./../images/logo-pegada-confort.png";
+import Logo from "./../images/logo.png";
 
 function Footer() {
   return (
@@ -14,7 +14,7 @@ function Footer() {
               {/* Logo */}
               <Link
                 to="/"
-                className="flex md:w-32 w-36 m-auto"
+                className="flex md:w-36 w-48 m-auto"
                 aria-label="Cruip"
               >
                 <img className="m-auto self-center" src={Logo}></img>
@@ -53,7 +53,7 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="https://soulshoes.mercadoshops.com.br/"
+                  href="https://loja.pegadacomfort.com.br/"
                   target="_blank"
                   rel="noreferrer"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"

@@ -19,7 +19,7 @@ import Atacado from "./pages/Atacado";
 import PoliticaFrete from "./pages/PoliticaFrete";
 
 function App() {
-  TagManager.initialize({ gtmId: "" });
+  TagManager.initialize({ gtmId: "GTM-MQTBS5Z" });
 
   const location = useLocation();
 

@@ -16,6 +16,7 @@ import Termos from "./pages/Termos";
 import SelectPage from "./pages/SelectPage";
 import FormAtacado from "./pages/Atacado";
 import Atacado from "./pages/Atacado";
+import PoliticaFrete from "./pages/PoliticaFrete";
 
 function App() {
   TagManager.initialize({ gtmId: "" });
@@ -48,6 +49,7 @@ function App() {
         <Route path="/termos" element={<Termos />} />
         <Route path="/select-page" element={<SelectPage />} />
         <Route path="/atacado" element={<Atacado />} />
+        <Route path="/politica-frete" element={<PoliticaFrete />} />
       </Routes>
     </>
   );

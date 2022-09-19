@@ -28,8 +28,10 @@
     padding-left: 5%;
     padding-right: 5%;
     border: 1px solid #ddd;
-    height: 286px;
-    margin-bottom:30px 
+    height: fit-content;
+    margin-bottom:30px;
+    align-self: center !important;
+    
   }
   
   .carousel .control-dots {

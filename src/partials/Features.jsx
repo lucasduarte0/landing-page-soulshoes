@@ -6,6 +6,8 @@ import NuvemBanner2 from '../images/nuvem-banner-2.png';
 import FeaturesBg from '../images/features-bg.png';
 import FeaturesElement from '../images/features-element.png';
 import ButtonComprar from '../components/ButtonComprar.jsx';
+import Instagram from '../components/Instagram';
+import InstagramComp from '../components/InstagramComp';
 
 
 function Features() {
@@ -99,6 +101,9 @@ function Features() {
                 </a>
               </div>
             </div>
+
+            
+            <InstagramComp />
 
             <h4 className={"text-2xl font-normal leading-snug text-center mb-3 text-gray-800 md:mt-8"}>O que você está esperando pra garantir o seu?</h4>
             <h2 className="text-2xl font-semibold leading-snug text-center mb-3 text-gray-800">VOCÊ ESTA PRONTO(A)?</h2> 

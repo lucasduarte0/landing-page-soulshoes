@@ -52,14 +52,6 @@ function Footer() {
                 </Link>
               </li>
               <li className="mb-2">
-                <Link
-                  to="#"
-                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
-                >
-                  Prazos
-                </Link>
-              </li>
-              <li className="mb-2">
                 <a
                   href="https://loja.pegadacomfort.com.br/"
                   target="_blank"
@@ -72,6 +64,8 @@ function Footer() {
             </ul>
           </div>
         </div>
+
+
 
         {/* Bottom area */}
         <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
@@ -96,6 +90,7 @@ function Footer() {
                 </svg>
               </Link>
             </li>
+
             <li className="ml-4">
               <Link
                 to="#"
@@ -138,6 +133,9 @@ function Footer() {
           {/* Copyrights note */}
           <div className="text-xs text-gray-600 mr-4">
             Soulshoes Comércio de Calçados e Acessórios LTDA
+          </div>
+          <div className="text-xs text-gray-600 mr-4">
+            Rua Itatiaia 303, Nova Serrana-MG, 35520-378
           </div>
           <div className="text-xs text-gray-600 mr-4">
             CNPJ 43.336.887/0001-04

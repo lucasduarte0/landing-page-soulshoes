@@ -18,15 +18,14 @@ function EmbedCartPanda() {
           className="flex shrink w-fit flex-col justify-center bg-gray-100 m-5 mt-0 pb-2 md:m-0 rounded-2xl drop-shadow-xl md:basis-1/2"
         >
           <div
-            className="cartx-buy-button mx-4"
+            class="cartx-buy-button"
             data-buy-button="35aeea57-3192-4638-bf28-68e8f37574bd"
-            data-shop-url="https://soulshoes.mycartpanda.com/"
+            data-shop-url="https://loja.pegadacomfort.com.br/"
           ></div>
           <Helmet>
             <script
-              id="cartpanda"
               type="text/javascript"
-              src="https://soulshoes.mycartpanda.com/js/buy-button.min.js"
+              src="https://loja.pegadacomfort.com.br/js/buy-button.min.js"
             ></script>
           </Helmet>
           <CardList />

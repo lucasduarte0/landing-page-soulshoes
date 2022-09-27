@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { InstagramEmbed } from "react-social-media-embed";
+import "../css/additional-styles/instagram.css"
 
 function InstagramComp() {
   return (

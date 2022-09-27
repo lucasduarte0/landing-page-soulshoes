@@ -53,7 +53,7 @@ import "../css/additional-styles/bubble.css";
 
 function WppButton() {
   return (
-    <section id="whatsapp-button" className="z-50 fixed inset-x-0 bottom-0 z-50 drop-shadow-2xl md:bg-opacity-90">
+    <section id="whatsapp-button" className="hidden z-50 fixed inset-x-0 bottom-0 z-50 drop-shadow-2xl md:bg-opacity-90">
       <div className="">
         <div className="flex flex-row justify-end m-2 ">
           <div className="flex flex-row items-center self-center mt-3 h-fit -right-2 overflow-visible">

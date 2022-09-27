@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import useCollapse from 'react-collapsed';
 
@@ -16,7 +17,7 @@ function FormContact() {
         {isExpanded ? "Close" : "> Entre em Contato"}
       </div>
       <div {...getCollapseProps()}>
-          <Form />
+        <Form />
       </div>
     </div>
   );

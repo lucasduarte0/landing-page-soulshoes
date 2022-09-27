@@ -1,8 +1,9 @@
-import React, { Component, useState } from "react";
-import ReactDOM from "react-dom";
+/* eslint-disable import/no-unresolved */
+/* eslint-disable no-prototype-builtins */
+/* eslint-disable no-undef */
+import React, { Component } from "react";
 import { Input, Radio } from "@material-tailwind/react";
 import { Button } from "react-bootstrap";
-import PhoneInput, { formatPhoneNumberIntl } from "react-phone-number-input";
 
 
 
@@ -21,7 +22,7 @@ class FormAtacado extends Component {
   }
 
 
-  submitForm = async e => {
+  _submitForm = async (e) => {
     e.preventDefault();
     console.log(this.state);
     this.setState({ isSubmitting: true });
@@ -40,19 +41,24 @@ class FormAtacado extends Component {
       : this.setState({ message: data.error, isError: true });
 
     setTimeout(
-      () =>
-        this.setState({
-          isError: false,
-          message: "",
-          values: {
-            name: "",
-            phone: "",
-            email: "",
-          },
-        }),
+      () => this.setState({
+        isError: false,
+        message: "",
+        values: {
+          name: "",
+          phone: "",
+          email: "",
+        },
+      }),
       1600
     );
   };
+  get submitForm() {
+    return this._submitForm;
+  }
+  set submitForm(value) {
+    this._submitForm = value;
+  }
 
   handleInputChange = e =>
     this.setState({
@@ -86,7 +92,7 @@ class FormAtacado extends Component {
               title="Whatsapp"
               required
             />
-                    {/* <PhoneInput
+            {/* <PhoneInput
           inputComponent={MuiField}
           name="phone"
           onChange={handlePhone}

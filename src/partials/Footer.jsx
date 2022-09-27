@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import FormContact from "../components/FormContact";
 import Logo from "./../images/logo.png";
 
 function Footer() {
@@ -62,6 +63,7 @@ function Footer() {
                 </a>
               </li>
             </ul>
+            <FormContact />
           </div>
         </div>
 

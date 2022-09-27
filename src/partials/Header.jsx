@@ -1,7 +1,6 @@
+/* eslint-disable no-undef */
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import ButtonComprar from "../components/ButtonComprar";
-import ButtonFixed from "../components/ButtonFixed";
+import WppButton from "../components/ButtonFixed";
 
 function Header() {
   const [top, setTop] = useState(true);
@@ -22,9 +21,10 @@ function Header() {
         text="COMPRAR AGORA"
         subText="POUCAS UNIDADES DISPONIVEIS" /> */}
 
-        <ButtonFixed
+        {/* <ButtonFixed
           className={`fixed inset-x-0 bottom-0 z-50 drop-shadow-2xl md:bg-opacity-90 transition duration-300 ease-in-out ${!top && "hidden"}`}
-        />
+        /> */}
+        <WppButton />
       </div>
     </header>
   );

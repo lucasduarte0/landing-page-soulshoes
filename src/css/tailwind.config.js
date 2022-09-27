@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 module.exports = {
   content: [
     './index.html',
@@ -117,9 +118,14 @@ module.exports = {
         "rotate-slow": 'spinn 4s linear infinite',
         float: 'float 3s ease-in-out infinite',
         blow: 'bloww 1s ease-in-out infinite',
+        pingg: 'pinggg 1.3s ease-in-out infinite'
       },
 
       keyframes: {
+        pinggg: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.03)' },
+        },
         bloww: {
           '0%, 100%': { transform: 'scale(1)' },
           '50%': { transform: 'scale(1.04)' },

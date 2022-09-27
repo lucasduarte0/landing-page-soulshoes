@@ -1,7 +1,8 @@
+/* eslint-disable no-irregular-whitespace */
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import Footer from "../partials/Footer";
 import Header from "../partials/Header";
-import { empresaTitulo } from "../utils/Variables";
 import Logo from "../images/logo.png";
 
 function PoliticaFrete() {
@@ -27,7 +28,7 @@ function PoliticaFrete() {
               </div>
               <div className="text-sm mx-3 indent-4 text-justify mb-2 text-base leading-7">
                 <ul className="list-disc mx-1">
-                <li className="mb-5">
+                  <li className="mb-5">
                     <h2 className="indent-0 h4 text-lg">
                       De onde vocês enviam?
                     </h2>

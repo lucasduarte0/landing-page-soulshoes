@@ -7,11 +7,8 @@ import FeaturesBlocks from "../partials/FeaturesBlocks";
 import Testimonials from "../partials/Testimonials";
 import CompraReembolso from "../partials/CompraReembolso";
 import Footer from "../partials/Footer";
-import NuvemBanner2 from "../images/nuvem-banner-2.png";
-import Pagamento from "../partials/Pagamento";
 import BannerGigante from "../partials/BannerGigante";
 import YellowSection from "../partials/YellowSection";
-import Transicao from "../images/nuvem-transicao.png";
 import HeaderTop from "../partials/HeaderTop";
 
 function Home() {

@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, {  } from "react";
 import { Helmet } from "react-helmet";
 import "../css/additional-styles/cart-pandas.css";
-import Button from "react-bootstrap/Button";
 import CardList from "./CardList";
 import SecurityList from "./SecurityList";
 import CoresNuvem from "../images/imagem-3.jpg";
@@ -18,7 +17,7 @@ function EmbedCartPanda() {
           className="flex shrink w-fit flex-col justify-center bg-gray-100 m-5 mt-0 pb-2 md:m-0 rounded-2xl drop-shadow-xl md:basis-1/2"
         >
           <div
-            class="cartx-buy-button"
+            className="cartx-buy-button"
             data-buy-button="35aeea57-3192-4638-bf28-68e8f37574bd"
             data-shop-url="https://loja.pegadacomfort.com.br/"
           ></div>

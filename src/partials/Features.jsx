@@ -103,7 +103,7 @@ function Features() {
             </div>
 
             
-            <InstagramComp />
+            <InstagramComp className="block m-auto" />
 
             <h4 className={"text-2xl font-normal leading-snug text-center mb-3 text-gray-800 md:mt-8"}>O que você está esperando pra garantir o seu?</h4>
             <h2 className="text-2xl font-semibold leading-snug text-center mb-3 text-gray-800">VOCÊ ESTA PRONTO(A)?</h2> 

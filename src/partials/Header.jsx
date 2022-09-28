@@ -24,7 +24,7 @@ function Header() {
         {/* <ButtonFixed
           className={`fixed inset-x-0 bottom-0 z-50 drop-shadow-2xl md:bg-opacity-90 transition duration-300 ease-in-out ${!top && "hidden"}`}
         /> */}
-        <WppButton />
+        {/* <WppButton /> */}
       </div>
     </header>
   );

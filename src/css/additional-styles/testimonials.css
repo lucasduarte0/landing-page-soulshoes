@@ -1,26 +1,35 @@
 .carousel-root {
-    width: 64% !important;
+    width: 100% !important;
     margin: 0 !important;
     margin-top: 10px !important;
   }
   
   .carousel .slide {
+    display: flex !important;
+    justify-self: center !important;
     background: none !important;
     color: black;
+    width: 50px !important;
+    justify-items: center !important;
     height: 100%;
     padding-top: 20px !important;
   }
+  .carousel .slider {
+    display: flex;
+  }
   
   .carousel .slide img {
-    width: 139px !important;
+    width: 78px !important;
+    height: 78px !important;
     border-radius: 50%;
     margin-bottom: 10px;
   }
   
   .myCarousel {
+    display: flex !important;
     background: #fafafa;
     margin-top: -6%;
-    width: 54%;
+    width: 30% !important;
     margin-left: auto;
     margin-right: auto;
     padding-top: 6%;
@@ -31,6 +40,7 @@
     height: fit-content;
     margin-bottom:30px;
     align-self: center !important;
+    justify-self: center !important;
     
   }
   
@@ -127,7 +137,8 @@
     }
   
     .carousel .slide img {
-      width: 24% !important;
+      width: 78px !important;
+      height: 78px !important;
       border-radius: 50%;
     }
   }

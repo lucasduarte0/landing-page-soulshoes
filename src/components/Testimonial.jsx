@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import "../css/additional-styles/testimonials.css"; // requires a loader
+// import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+// import "../css/additional-styles/testimonials.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
 export default class Testimonials extends Component {

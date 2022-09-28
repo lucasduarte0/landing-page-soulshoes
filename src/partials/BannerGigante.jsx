@@ -20,7 +20,11 @@ function BannerGigante() {
           <EmbedCartPanda />
         </div>
 
-        <TabelaMedidas />
+        <div className="md:mb-8">
+
+          <TabelaMedidas />
+        </div>
+
 
         <img
           className="bg-fill md:hidden w-full mx-full"

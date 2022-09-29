@@ -6,7 +6,7 @@ import TestimonialMsg from "./testimonial-messages.json";
 export default class Testi extends Component {
   render() {
     return (
-      <div className="flex justify-center">
+      <div>
         <Carousel
           showArrows={true}
           infiniteLoop={true}
@@ -15,7 +15,6 @@ export default class Testi extends Component {
           showIndicators={false}
           autoPlay={true}
           interval={6100}
-          className=""
         >
           {TestimonialMsg.map((TestimonialMsg) => (
             <div class="flex justify-center self-center min-h-[350px] h-auto mx-10 mb-10 row-span-2 p-6 border border-gray-100 rounded-xl bg-gray-50 text-center sm:p-8 md:w-3/4">

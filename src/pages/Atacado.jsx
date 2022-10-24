@@ -15,7 +15,7 @@ function Atacado() {
           </div>
 
           <div className='rounded bg-white max-w-md rounded overflow-hidden shadow-xl pt-0 p-5'>
-            <form className='space-y-4' action='#' method='POST'>
+            <form name="atacado" className='space-y-4' method='POST' data-netlify="true">
               <input type='hidden' name='remember' value='True' />
               <div className='rounded-md shadow-sm -space-y-px'>
                 <div className='grid gap-6'>

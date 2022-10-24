@@ -14,7 +14,6 @@ import ResetPassword from "./pages/ResetPassword";
 import QuemSomos from "./pages/QuemSomos";
 import Termos from "./pages/Termos";
 import SelectPage from "./pages/SelectPage";
-import FormAtacado from "./pages/Atacado";
 import Atacado from "./pages/Atacado";
 import PoliticaFrete from "./pages/PoliticaFrete";
 import BuyPage from "./pages/BuyPage";

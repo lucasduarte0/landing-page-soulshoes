@@ -1,11 +1,9 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import Footer from "../partials/Footer";
 import Header from "../partials/Header";
 import { empresaTitulo } from "../utils/Variables";
-import Logo from "../images/logo.png";
 
-function QuemSomos() {
+function BuyPage() {
   return (
     <div className='flex flex-col min-h-screen overflow-hidden'>
       {/*  Site header */}
@@ -18,13 +16,7 @@ function QuemSomos() {
             <div className='pt-16 pb-12 md:pt-40 md:pb-20'>
               {/* Page header */}
               <div className='max-w-3xl mx-auto text-center pb-6 md:pb-20'>
-                <div className='flex'>
-                  // eslint-disable-next-line jsx-a11y/alt-text, jsx-a11y/alt-text
-                  <img
-                    className='m-auto w-1/2 self-center pb-8'
-                    src={Logo}
-                  ></img>
-                </div>
+                <div className='flex'></div>
                 <h1 className='h2 mb-0 text-gray-800'>TERMOS DE USO</h1>
               </div>
               <div className='text-sm mx-3 indent-6 text-justify mb-2 text-base leading-7'>
@@ -233,4 +225,4 @@ function QuemSomos() {
   );
 }
 
-export default QuemSomos;
+export default BuyPage;

@@ -18,6 +18,7 @@ import FormAtacado from "./pages/Atacado";
 import Atacado from "./pages/Atacado";
 import PoliticaFrete from "./pages/PoliticaFrete";
 import BuyPage from "./pages/BuyPage";
+import FormSent from "./pages/FormSent";
 
 function App() {
   TagManager.initialize({ gtmId: "GTM-MQTBS5Z" });
@@ -52,6 +53,7 @@ function App() {
         <Route path="/atacado" element={<Atacado />} />
         <Route path="/politica-frete" element={<PoliticaFrete />} />
         <Route path="/buy-page" element={<BuyPage />} />
+        <Route path="/form-sent" element={<FormSent />} />
       </Routes>
     </>
   );

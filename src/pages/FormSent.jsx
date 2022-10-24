@@ -2,7 +2,7 @@ import React from "react";
 import "../css/styleIframe.css";
 import Logo from "../images/logo.png";
 
-function Atacado() {
+function FormSent() {
   return (
     <div className='flex flex-col md:px-96 min-h-screen overflow-hidden md:w-full md:justify-center'>
       <div class='min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8'>
@@ -145,4 +145,4 @@ function Atacado() {
   );
 }
 
-export default Atacado;
+export default FormSent;

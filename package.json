@@ -28,6 +28,7 @@
     "iframe-resizer-react": "^1.1.0",
     "prettier": "^2.7.1",
     "react": "^18.2.0",
+    "react-background-video-player": "^1.1.8",
     "react-bootstrap": "^2.5.0",
     "react-bootstrap-star-rating": "^0.0.2",
     "react-collapsed": "^3.4.0",

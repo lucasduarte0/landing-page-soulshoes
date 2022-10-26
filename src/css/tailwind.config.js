@@ -70,7 +70,7 @@ module.exports = {
         '1/1': '100%',
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif'],
+        inter: ['Montserrat','Inter', 'sans-serif'],
         carter: ['Carter One']
       },
       fontSize: {
@@ -128,7 +128,7 @@ module.exports = {
         "bounce-slow": 'bouncee 2s ease-in-out infinite',
         "rotate-slow": 'spinn 4s linear infinite',
         float: 'float 3s ease-in-out infinite',
-        blow: 'bloww 1s ease-in-out infinite',
+        blow: 'bloww 1.5s ease-in-out infinite',
         pingg: 'pinggg 1.3s ease-in-out infinite'
       },
 
@@ -139,7 +139,7 @@ module.exports = {
         },
         bloww: {
           '0%, 100%': { transform: 'scale(1)' },
-          '50%': { transform: 'scale(1.04)' },
+          '50%': { transform: 'scale(1.02)' },
         },
         bounce: {
           '0%, 100%': { transform: 'translateY(0%)' },

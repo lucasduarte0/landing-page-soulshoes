@@ -8,7 +8,7 @@ import CoresNuvem from "../images/imagem-3.jpg";
 
 function BannerGigante() {
   return (
-    <section className={"relative md:px-28 bg-[#64ACE6] md:bg-[#1F83DF]"}>
+    <section className={"relative -top-60 -mb-60 md:px-28 bg-[#64ACE6] md:bg-[#1F83DF]"}>
       <div className="flex flex-col box-border border-0 gap-0">
         <img
           className="bg-fill md:hidden w-full mx-full"

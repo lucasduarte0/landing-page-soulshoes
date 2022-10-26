@@ -10,6 +10,7 @@ import Footer from "../partials/Footer";
 import BannerGigante from "../partials/BannerGigante";
 import YellowSection from "../partials/YellowSection";
 import HeaderTop from "../partials/HeaderTop";
+import Clientes from "../partials/Clientes";
 
 function Home() {
   return (
@@ -23,14 +24,15 @@ function Home() {
         <HeaderTop />
         <Header />
         <HeroHome />
-
         <FeaturesBlocks />
+        <Clientes />
+      
         {/* <Comparacao /> */}
         <YellowSection />
         <CompraReembolso />
         <FeaturesHome />
         <BannerGigante />
-        <Testimonials />
+        {/* <Testimonials /> */}
         {/* <Pagamento />
         <Newsletter /> */}
       </main>

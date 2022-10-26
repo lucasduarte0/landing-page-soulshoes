@@ -15,7 +15,7 @@ function Header() {
   }, [top]);
 
   return (
-    <header className="relative">
+    <header className="relative z-50">
       <div>
         {/* <ButtonFixed className={`fixed w-full inset-x-0 bottom-0 z-50 drop-shadow-2xl md:bg-opacity-90 transition duration-300 ease-in-out ${!top && 'hidden'}`} 
         text="COMPRAR AGORA"

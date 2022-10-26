@@ -2,12 +2,12 @@
 import React, { useState, useEffect } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import Logo from "../images/logo-branca.png";
+import { browserName } from "react-device-detect";
 
 function useScrollDirection() {
   const [scrollDirection, setScrollDirection] = useState(null);
 
   useEffect(() => {
-
     const updateScrollDirection = () => {
       const scrollY = window.pageYOffset;
       setScrollDirection(scrollY);
@@ -15,51 +15,25 @@ function useScrollDirection() {
     window.addEventListener("scroll", updateScrollDirection); // add event listener
     return () => {
       window.removeEventListener("scroll", updateScrollDirection); // clean up
-    }
+    };
   }, [scrollDirection]);
 
   return scrollDirection;
-};
+}
 
 function HeroHome() {
   const scrollDirection = useScrollDirection();
 
   return (
-    <section className='h-screen'>
-      <div className='relative -top-10 w-full static z-0'>
-        {/* <img
-          className='w-full h-full fixed object-cover brightness-75'
-          src='https://ik.imagekit.io/soulshoes/Design_sem_nome__1__paRfq_5HS.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1666810733198'
-        /> */}
+    <section className={`h-screen`}>
+      <div className={`relative -top-10 w-full static z-0`}>
         <LazyLoadImage
           alt='Gif'
-          className={`sticky ${ scrollDirection > 1000 ? "hidden" : ""} w-full h-full sticky object-cover brightness-75`}
+          className={`sticky ${
+            scrollDirection > 1000 ? "hidden" : ""
+          } w-full h-full sticky object-cover brightness-75`}
           src='https://ik.imagekit.io/soulshoes/Design_sem_nome__1__paRfq_5HS.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1666810733198' // use normal <img> attributes as props
         />
-
-        {/* <div style='width:100%;height:0;padding-bottom:161%;position:relative;'> */}
-        {/* <div className='w-full h-full fixed object-cover brightness-75'>
-        
-          <Iframe
-            className='w-full h-full fixed object-cover brightness-75'
-            src='https://giphy.com/embed/sefIEWz4czDMWrB9oz'
-            width='480px'
-            height='298px'            
-            frameBorder='0'
-            class='giphy-embed'
-            allowFullScreen
-          ></Iframe>
-        </div> */}
-        {/* <VideoPlayer
-          loop
-          className='w-full h-full fixed object-cover brightness-75'
-          src='https://ik.imagekit.io/soulshoes/principal__2__3xTrjRYIn.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1666805639172'
-          autoPlay
-          preload
-          muted
-          width='298'
-          height='480'
-        /> */}
       </div>
       <div className='fixed top-0 h-screen md:px-36 px-4 pb-8 pt-8'>
         {/* Illustration behind hero content */}
@@ -109,7 +83,7 @@ function HeroHome() {
               NÃO AGUENTA MAIS DORES NOS PÉS E PERNAS?
             </h1>
           </div>
-          <div className='h-fit w-full justify-end'>
+          <div className={`relative h-fit w-full justify-end ${ browserName == "Safari" ?  "-top-12" : "" }`}>
             <h1
               className='mb-2 text-white text-2xl md:text-3xl text-center leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10'
               data-aos='zoom-y-out'

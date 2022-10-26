@@ -7,14 +7,14 @@ import Block5 from "../images/chinelo-praia.jpg";
 import Block6 from "../images/chinelo-quadricicolo.jpg";
 import Block7 from "../images/chinelo-limpo.gif";
 import Block8 from "../images/chinelo-macio.gif";
-import Svg from "../images/like-good.svg";
-import Logo from "../images/logo.png";
+
 import Transicao from "../images/nuvem-transicao.png";
 import { tituloProduto } from "../utils/Variables";
+import { browserName } from "react-device-detect"
 
 function FeaturesBlocks() {
   return (
-    <section className='relative -top-16 md:px-16 md:pb-12 bg-[#fc98d6] pb-24'>
+    <section className={`relative ${ browserName == "Safari" ?  "-top-28" : "-top-16" }  md:px-16 md:pb-12 bg-[#fc98d6] pb-24`}>
       <img
         className='md:hidden relative -top-20 -mb-10 bg-fill w-full mx-full md:px-36'
         src={Transicao}

@@ -1,9 +1,29 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import Logo from "../images/logo-branca.png";
 
+function useScrollDirection() {
+  const [scrollDirection, setScrollDirection] = useState(null);
+
+  useEffect(() => {
+
+    const updateScrollDirection = () => {
+      const scrollY = window.pageYOffset;
+      setScrollDirection(scrollY);
+    };
+    window.addEventListener("scroll", updateScrollDirection); // add event listener
+    return () => {
+      window.removeEventListener("scroll", updateScrollDirection); // clean up
+    }
+  }, [scrollDirection]);
+
+  return scrollDirection;
+};
+
 function HeroHome() {
+  const scrollDirection = useScrollDirection();
+
   return (
     <section className='h-screen'>
       <div className='relative -top-10 w-full static z-0'>
@@ -13,7 +33,7 @@ function HeroHome() {
         /> */}
         <LazyLoadImage
           alt='Gif'
-          className='w-full h-full fixed object-cover brightness-75'
+          className={`sticky ${ scrollDirection > 1000 ? "hidden" : ""} w-full h-full sticky object-cover brightness-75`}
           src='https://ik.imagekit.io/soulshoes/Design_sem_nome__1__paRfq_5HS.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1666810733198' // use normal <img> attributes as props
         />
 

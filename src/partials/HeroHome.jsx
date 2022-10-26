@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../images/logo-branca.png";
-import VideoPlayer from "react-background-video-player";
-import Iframe from "react-iframe";
-import { Helmet } from "react-helmet";
+
 
 function HeroHome() {
   return (

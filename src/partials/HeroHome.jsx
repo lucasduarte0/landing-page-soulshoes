@@ -1,20 +1,29 @@
 import React, { useState } from "react";
-import Modal from "../utils/Modal";
-
-import HeroImage from "../images/hero-image.png";
-import NuvemBanner from "../images/nuvem-banner-1.png";
-import Sombra from "../images/sombra.png";
-import CapaVideo from "../images/thumb-nuvem.png";
-import ButtonComprar from "../components/ButtonComprar";
 import Logo from "../images/logo-branca.png";
-import { tituloProduto } from "../utils/Variables";
 import VideoPlayer from "react-background-video-player";
+import Iframe from "react-iframe";
+import { Helmet } from "react-helmet";
 
 function HeroHome() {
   return (
     <section className='h-screen'>
       <div className='relative -top-10 w-full static z-0'>
-        <video
+        <img className='w-full h-full fixed object-cover brightness-75' src='https://ik.imagekit.io/soulshoes/Design_sem_nome__1__paRfq_5HS.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1666810733198' />
+
+        {/* <div style='width:100%;height:0;padding-bottom:161%;position:relative;'> */}
+        {/* <div className='w-full h-full fixed object-cover brightness-75'>
+        
+          <Iframe
+            className='w-full h-full fixed object-cover brightness-75'
+            src='https://giphy.com/embed/sefIEWz4czDMWrB9oz'
+            width='480px'
+            height='298px'            
+            frameBorder='0'
+            class='giphy-embed'
+            allowFullScreen
+          ></Iframe>
+        </div> */}
+        {/* <VideoPlayer
           loop
           className='w-full h-full fixed object-cover brightness-75'
           src='https://ik.imagekit.io/soulshoes/principal__2__3xTrjRYIn.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1666805639172'
@@ -23,7 +32,7 @@ function HeroHome() {
           muted
           width='298'
           height='480'
-        ></video>
+        /> */}
       </div>
       <div className='fixed top-0 h-screen md:px-36 px-4 pb-8 pt-8'>
         {/* Illustration behind hero content */}

@@ -17,17 +17,13 @@ function HeroHome() {
         <video
           loop
           className='w-full h-full fixed object-cover brightness-75'
+          src='https://ik.imagekit.io/soulshoes/principal__2__3xTrjRYIn.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1666805639172'
           autoPlay
           preload
           muted
           width='298'
           height='480'
-        >
-          <source
-            src='https://ik.imagekit.io/soulshoes/guilhermeasilva_2022-09-01T091758_V7aCCgQz0.mp4?ik-sdk-version=javascript-1.4.3&updatedAt=1666790472135'
-            type='video/mp4'
-          />
-        </video>
+        ></video>
       </div>
       <div className='fixed top-0 h-screen md:px-36 px-4 pb-8 pt-8'>
         {/* Illustration behind hero content */}
@@ -84,7 +80,7 @@ function HeroHome() {
             >
               TEMOS A SOLUÇÃO PARA VOCÊ
             </h1>
-            <div className="flex justify-center">
+            <div className='flex justify-center'>
               <i className='fa-solid fa-chevron-down fa-3x center text-white animate-bounce'></i>
             </div>
 

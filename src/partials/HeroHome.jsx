@@ -1,12 +1,21 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import Logo from "../images/logo-branca.png";
-
 
 function HeroHome() {
   return (
     <section className='h-screen'>
       <div className='relative -top-10 w-full static z-0'>
-        <img className='w-full h-full fixed object-cover brightness-75' src='https://ik.imagekit.io/soulshoes/Design_sem_nome__1__paRfq_5HS.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1666810733198' />
+        {/* <img
+          className='w-full h-full fixed object-cover brightness-75'
+          src='https://ik.imagekit.io/soulshoes/Design_sem_nome__1__paRfq_5HS.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1666810733198'
+        /> */}
+        <LazyLoadImage
+          alt='Gif'
+          className='w-full h-full fixed object-cover brightness-75'
+          src='https://ik.imagekit.io/soulshoes/Design_sem_nome__1__paRfq_5HS.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1666810733198' // use normal <img> attributes as props
+        />
 
         {/* <div style='width:100%;height:0;padding-bottom:161%;position:relative;'> */}
         {/* <div className='w-full h-full fixed object-cover brightness-75'>

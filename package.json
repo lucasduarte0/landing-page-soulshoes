@@ -40,6 +40,7 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^4.4.0",
     "react-iframe": "^1.8.5",
+    "react-lazy-load-image-component": "^1.5.5",
     "react-phone-number-input": "^3.2.11",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.3.0",

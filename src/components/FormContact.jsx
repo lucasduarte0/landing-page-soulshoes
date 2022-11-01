@@ -13,8 +13,8 @@ function FormContact() {
   const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
   return (
     <div className="collapsible border-1 py-4 px-3 border-gray-800">
-      <div className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out" {...getToggleProps()}>
-        {isExpanded ? "Close" : "> Entre em Contato"}
+      <div className="text-white hover:text-white hover:underline transition duration-150 ease-in-out" {...getToggleProps()}>
+        {isExpanded ? "> Fechar" : "> Entre em Contato"}
       </div>
       <div {...getCollapseProps()}>
         <Form />

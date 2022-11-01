@@ -18,7 +18,7 @@ function Clientes() {
   return (
     <section className='relative md:-top-16 md:px-16 md:pb-20 bg-[#ff9339] pb-32'>
       <img
-        className='md:hidden relative -top-20 -mb-10 bg-fill w-full mx-full md:px-36 z-20'
+        className='md:hidden relative -top-40 -mb-10 bg-fill w-full mx-full md:px-36 z-50'
         src={Transicao}
         width='768'
         height='432'

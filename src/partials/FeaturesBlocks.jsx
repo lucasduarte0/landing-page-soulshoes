@@ -123,16 +123,16 @@ function FeaturesBlocks() {
             </div>
 
           </div>
-              <h4 className='uppercase text-2xl text-white font-bold leading-snug tracking-tight text-center mb-5'>
+          <h4 className='uppercase text-2xl text-white font-bold leading-snug tracking-tight text-center mb-5'>
                 Não perca essa chance!
-              </h4>
+          </h4>
 
-              <ButtonComprar
-                className='md:mt-10 h4'
-                titleColor='gray-700'
-                text='COMPRAR AGORA COM FRETE GRATIS!'
-                subText='APROVEITE POR APENAS R$127,90'
-              ></ButtonComprar>
+          <ButtonComprar
+            className='md:mt-10 h4'
+            titleColor='gray-700'
+            text='COMPRAR AGORA COM FRETE GRATIS!'
+            subText='APROVEITE POR APENAS R$127,90'
+          ></ButtonComprar>
         </div>
       </div>
     </section>

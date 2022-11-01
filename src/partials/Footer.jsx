@@ -54,10 +54,10 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <a
-                  href="https://loja.pegadacomfort.com.br/"
+                  href="https://pegadacomfort.com.br/"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-white hover:text-white transition duration-150 ease-in-out"
+                  className="text-white hover:text-white hover:underline transition duration-150 ease-in-out"
                 >
                   Loja Official
                 </a>

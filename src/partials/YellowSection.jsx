@@ -25,7 +25,7 @@ function YellowSection() {
         alt="Hero"
       /> */}
       
-      <div className="relative -top-24 md:px-36 md:pt-20 z-0">
+      <div className="relative -top-24 md:top-0 md:px-36 md:pt-10 z-0">
         <div className="max-w-6xl mx-auto pt-7 drop-shadow-xl w-full mb-10">
           <div className="flex mx-6 p-5 rounded-3xl items-center bg-gradient-to-r from-green-800 to-green-500">
             <div className="text-white h2 text-2xl grow text-center">
@@ -65,7 +65,7 @@ function YellowSection() {
               <h4
                 className="text-gray-800 font-semibold flex uppercase items-center whitespace-normal text-2xl font-medium leading-snug text-center mb-3 md:text-4xl px-5 w-auto"
               >
-                O cuidado com seus pés só depende de você!
+                
               </h4>
               <ButtonComprar
                 className="px-3 mt-4 -mb-16 md:w-3/4"

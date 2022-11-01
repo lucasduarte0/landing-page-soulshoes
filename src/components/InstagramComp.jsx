@@ -5,8 +5,8 @@ import "../css/additional-styles/instagram.css"
 
 function InstagramComp() {
   return (
-    <>
-      <div className="p-3 pt-5 h3 text-center text-white self-center md:p-0">
+    
+      <div className="m-auto w-fit text-center text-white self-center md:p-0">
         
           <InstagramEmbed
             style={{
@@ -17,7 +17,7 @@ function InstagramComp() {
           />
         
       </div>
-    </>
+    
   );
 }
 

@@ -14,7 +14,7 @@ import { browserName } from "react-device-detect"
 
 function FeaturesBlocks() {
   return (
-    <section className={`relative ${ browserName == "Safari" ?  "-top-28" : "-top-16" }  md:px-16 md:pb-12 bg-[#fc98d6] pb-24`}>
+    <section className={`relative ${ browserName == "Safari" ?  "-top-28" : "-top-16" }  md:px-16 md:pb-12 bg-[#fc98d6] md:pt-24 pb-24`}>
       <img
         className='md:hidden relative -top-20 -mb-10 bg-fill w-full mx-full md:px-36'
         src={Transicao}
@@ -122,17 +122,17 @@ function FeaturesBlocks() {
               </h4>
             </div>
 
-            <h4 className='uppercase text-2xl text-white font-bold leading-snug tracking-tight text-center mb-5'>
-              Não perca essa chance!
-            </h4>
-
-            <ButtonComprar
-              className='md:mt-10 h4'
-              titleColor='gray-700'
-              text='COMPRAR AGORA COM FRETE GRATIS!'
-              subText='APROVEITE POR APENAS R$127,90'
-            ></ButtonComprar>
           </div>
+              <h4 className='uppercase text-2xl text-white font-bold leading-snug tracking-tight text-center mb-5'>
+                Não perca essa chance!
+              </h4>
+
+              <ButtonComprar
+                className='md:mt-10 h4'
+                titleColor='gray-700'
+                text='COMPRAR AGORA COM FRETE GRATIS!'
+                subText='APROVEITE POR APENAS R$127,90'
+              ></ButtonComprar>
         </div>
       </div>
     </section>

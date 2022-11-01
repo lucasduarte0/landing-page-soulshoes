@@ -16,7 +16,7 @@ import wpp4 from "../images/figma/wpp-4.png";
 
 function Clientes() {
   return (
-    <section className='relative -top-16 md:px-16 md:pb-12 bg-[#ff9339] pb-32'>
+    <section className='relative md:-top-16 md:px-16 md:pb-20 bg-[#ff9339] pb-32'>
       <img
         className='md:hidden relative -top-20 -mb-10 bg-fill w-full mx-full md:px-36 z-20'
         src={Transicao}
@@ -24,25 +24,9 @@ function Clientes() {
         height='432'
         alt='Hero'
       />
-      <div className='relative -top-20 z-0'>
-        <div className='v10_2016'>
-          <div className='v10_1999'></div>
-          <div className='v10_2030'></div>
-          <div className='v10_2031'></div>
-          <div className='v10_2032'></div>
-          <div className='v10_2033'></div>
-          <div className='v10_2014'></div>
-          <div className='v10_2015'></div>
-          <div className='v10_2000'></div>
-          <div className='v10_2009'></div>
-          <div className='v10_2010'></div>
-          <div className='v10_2011'></div>
-          <div className='v10_2035'></div>
-          <div className='v10_2012'></div>
-          <div className='v10_2013'></div>
-        </div>
+      <div className='relative -top-20 md:top-0 md:w-3/4 m-auto z-0'>
 
-        <div className='w-full m-0'>
+        <div className='w-full md:w-3/4 m-auto'>
           <img src={fd} className='w-full' />
         </div>
 

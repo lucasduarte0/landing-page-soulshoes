@@ -1,5 +1,6 @@
 import React from "react";
 import EmbedCartPanda from "../components/EmbedCartPanda";
+import InstagramComp from "../components/InstagramComp";
 import TabelaMedidas from "../components/TabelaMedidas";
 import Testi from "../components/Testi";
 import BannerGigante1 from "../images/banner-grande-1.png";
@@ -19,8 +20,10 @@ function BannerGigante() {
         <div className="p-3 -mb-10 -mt-28 md:m-0">
           <EmbedCartPanda />
         </div>
-
+<div className="md:mb-10">
+  
         <TabelaMedidas />
+</div>
 
         <img
           className="bg-fill md:hidden w-full mx-full"
@@ -28,6 +31,10 @@ function BannerGigante() {
           alt="Banner Gigante"
         />
       </div>
+<div className="bg-[#DA5AB0] md:bg-[#1F83DF] md:py-8">
+
+      <InstagramComp />
+</div>
     </section>
   );
 }

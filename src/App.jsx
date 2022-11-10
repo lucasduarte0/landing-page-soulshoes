@@ -16,7 +16,6 @@ import SignUp from './pages/SignUp';
 import ResetPassword from './pages/ResetPassword';
 import QuemSomos from './pages/QuemSomos';
 import Termos from './pages/Termos';
-import SelectPage from './pages/SelectPage'
 
 function App() {
 
@@ -46,7 +45,6 @@ function App() {
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/quem-somos" element={<QuemSomos />} />
         <Route path="/termos" element={<Termos />} />
-        <Route path="/select-page" element={<SelectPage />} />
       </Routes>
     </>
   );  

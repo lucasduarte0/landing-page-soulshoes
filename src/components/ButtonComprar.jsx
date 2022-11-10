@@ -48,10 +48,8 @@ function ButtonComprar(props) {
           </Button>
         </a>
       </div>     */}
-      <div className="flex justify-center pt-5">
-        <CardList />   
-
-      </div>
+      
+      <CardList />   
 
     </section>  
   );

@@ -11,6 +11,8 @@ import BannerGigante from "../partials/BannerGigante";
 import YellowSection from "../partials/YellowSection";
 import HeaderTop from "../partials/HeaderTop";
 import Clientes from "../partials/Clientes";
+import Comparison from "../partials/Comparison";
+import Cores from "../partials/Cores";
 
 function Home() {
   return (
@@ -25,12 +27,14 @@ function Home() {
         <Header />
         <HeroHome />
         <FeaturesBlocks />
-        <Clientes />
       
         {/* <Comparacao /> */}
-        <YellowSection />
+        <Comparison />
+        <Cores />
+        {/* <YellowSection /> */}
         <CompraReembolso />
         <FeaturesHome />
+        <Clientes />
         <BannerGigante />
         {/* <Testimonials /> */}
         {/* <Pagamento />

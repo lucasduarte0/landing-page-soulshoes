@@ -37,7 +37,13 @@ function ButtonComprar(props) {
       className={"z-0 flex flex-col justify-center " + props.className}
     >
       <div className='bg-green-500 hover:bg-green-300 text-center text-white font-semibold rounded-2xl drop-shadow-lg animate-blow'>
-        <Button id='bt-compra' onClick={goToTop} variant='primary' size='xl'>
+        <Button
+          id='bt-compra'
+          className='px-2'
+          onClick={goToTop}
+          variant='primary'
+          size='xl'
+        >
           <div className='flex uppercase flex-col tracking-wider'>
             <h2 className='font-semibold'>{props.text}</h2>
             <p className='text-sm mt-2 font-extralight text-green-100'>

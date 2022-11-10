@@ -9,32 +9,31 @@ import CoresNuvem from "../images/imagem-3.jpg";
 
 function BannerGigante() {
   return (
-    <section className={"relative -top-60 -mb-60 md:px-28 bg-[#64ACE6] md:bg-[#1F83DF]"}>
-      <div className="flex flex-col box-border border-0 gap-0">
+    <section
+      className={
+        "relative -top-72 -mb-72 md:px-28 bg-[#64ACE6] md:bg-[#1F83DF]"
+      }
+    >
+      <div className='flex flex-col box-border border-0 gap-0'>
         <img
-          className="bg-fill md:hidden w-full mx-full"
+          className='bg-fill md:hidden w-full mx-full'
           src={BannerGigante1}
-          alt="Banner Gigante"
+          alt='Banner Gigante'
         />
         {/* <div>Teste</div> */}
-        <div className="p-3 -mb-10 -mt-28 md:m-0">
+        <div className='p-3 -mb-10 -mt-28 md:m-0'>
           <EmbedCartPanda />
         </div>
-<div className="md:mb-10">
-  
-        <TabelaMedidas />
-</div>
+        <div className='md:mb-10'>
+          <TabelaMedidas />
+        </div>
 
         <img
-          className="bg-fill md:hidden w-full mx-full"
+          className='bg-fill md:hidden w-full mx-full'
           src={BannerGigante2}
-          alt="Banner Gigante"
+          alt='Banner Gigante'
         />
       </div>
-<div className="bg-[#DA5AB0] md:bg-[#1F83DF] md:py-8">
-
-      <InstagramComp />
-</div>
     </section>
   );
 }

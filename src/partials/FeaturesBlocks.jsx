@@ -30,7 +30,7 @@ function FeaturesBlocks() {
       ></div>
       <div className='absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 transform translate-y-1/2'></div>
 
-      <div className='relative max-w-6xl mx-auto px-6 sm:px-6'>
+      <div className='relative max-w-6xl mx-auto px-3 sm:px-6'>
         {/* Section header */}
         <div className='flex flex-col max-w-3xl text-white mx-auto text-center md:pb-0'>
           {/* <div className='flex flex-row self-center items-center'>
@@ -38,7 +38,7 @@ function FeaturesBlocks() {
               Afinal, é como pisar em nuvens mesmo?
             </h2>
             <img
-              className='w-20 mx-3'
+              className='w-20 mx-1'
               src='https://upload.wikimedia.org/wikipedia/commons/6/63/Twemoji2_1f914.svg'
             />
           </div> */}
@@ -66,24 +66,24 @@ function FeaturesBlocks() {
           </div>
         </div>
 
-        <div className='mx-2 mb-5 py-0 md:py-20'>
+        <div className='mb-5 py-0 md:py-20'>
           {/* Items */}
 
-          <div className='mx-auto grid gap-6 lg:grid-cols-4 items-start md:max-w-2xl lg:max-w-none'>
+          <div className='mx-auto grid grid-cols-2 gap-y-3 mb-5 gap-3 lg:grid-cols-4 items-start md:max-w-2xl lg:max-w-none'>
             {/* 1st item */}
 
-            <div className='overflow-hidden w-full flex flex-col lg:max-h-max items-center text-lg rounded-3xl shadow-xl transition duration-300 ease-in-out mb-3 bg-white'>
+            <div className='overflow-hidden w-full flex flex-col lg:max-h-max items-center text-base rounded-2xl shadow-xl transition duration-300 ease-in-out  bg-white'>
               <img
                 className='bg-fill w-full mx-full aspect-square object-cover'
                 src={Block8}
                 alt='Banner Gigante'
               />
-              <h4 className='text-2xl font-bold leading-snug tracking-tight text-center m-5 aspect-[5/1]'>
+              <h4 className='text-base font-bold leading-snug tracking-tight text-center my-3 '>
                 Super Macio
               </h4>
             </div>
 
-            <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl shadow-xl transition duration-300 ease-in-out mb-3 bg-white bg-white'>
+            <div className='overflow-hidden w-full flex flex-col lg:max-h-max items-center text-base rounded-2xl shadow-xl transition duration-300 ease-in-out  bg-white'>
               <img
                 className='bg-fill w-full mx-full aspect-square'
                 src={Block7}
@@ -91,12 +91,12 @@ function FeaturesBlocks() {
                 height='432'
                 alt='Banner Gigante'
               />
-              <h4 className='text-2xl font-bold leading-snug tracking-tight text-center m-5 aspect-[5/1]'>
+              <h4 className='text-base font-bold leading-snug tracking-tight text-center my-3 '>
                 Facíl Limpeza
               </h4>
             </div>
 
-            <div className='overflow-hidden w-full flex flex-col lg:max-h-max items-center text-lg rounded-3xl shadow-xl transition duration-300 ease-in-out mb-3 bg-white'>
+            <div className='overflow-hidden w-full flex flex-col lg:max-h-max items-center text-base rounded-2xl shadow-xl transition duration-300 ease-in-out  bg-white'>
               <img
                 className='bg-fill w-full mx-full aspect-square'
                 src={Block6}
@@ -104,12 +104,12 @@ function FeaturesBlocks() {
                 height='432'
                 alt='Banner Gigante'
               />
-              <h4 className='text-2xl font-bold tracking-tight text-center mx-3 my-5 aspect-[5/1]'>
-                Em Qualquer Lugar
+              <h4 className='text-base font-bold leading-snug tracking-tight text-center my-3 '>
+                Em qualquer lugar
               </h4>
             </div>
 
-            <div className='overflow-hidden flex flex-col items-center text-lg rounded-3xl shadow-xl transition duration-300 ease-in-out mb-3 bg-white'>
+            <div className='overflow-hidden w-full flex flex-col lg:max-h-max items-center text-base rounded-2xl shadow-xl transition duration-300 ease-in-out  bg-white'>
               <img
                 className='bg-fill w-full mx-full aspect-square'
                 src={Block5}
@@ -117,7 +117,7 @@ function FeaturesBlocks() {
                 height='432'
                 alt='Banner Gigante'
               />
-              <h4 className='text-2xl font-bold leading-snug tracking-tight text-center m-5 aspect-[5/1]'>
+              <h4 className='text-base font-bold leading-snug tracking-tight text-center my-3'>
                 A Qualquer Hora
               </h4>
             </div>
@@ -126,6 +126,7 @@ function FeaturesBlocks() {
           <h4 className='uppercase text-2xl text-white font-bold leading-snug tracking-tight text-center mb-5'>
                 Não perca essa chance!
           </h4>
+
 
           <ButtonComprar
             className='md:mt-10 h4'

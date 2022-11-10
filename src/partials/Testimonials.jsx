@@ -29,6 +29,7 @@ function Testimonials() {
         <div className="md:py-20">
 
           {/* Section header */}
+<<<<<<< HEAD
           <div className="max-w-3xl mx-auto text-center pb-6 md:pb-8">
             <h2 className="h2 text-white">Mais de 10 mil clientes satisfeitos</h2>
           </div>
@@ -67,6 +68,23 @@ function Testimonials() {
       <EmbedCartPanda />
 
 
+=======
+
+        </div>
+      </div> 
+
+      <div className="max-w-6xl mx-auto px-10 sm:px-6">
+        <div className="md:py-20">
+
+          {/* Section header */}
+          <div className="max-w-3xl mx-auto text-center pb-6 md:pb-8">
+            <h2 className="h2 text-white">Mais de 10 mil clientes satisfeitos</h2>
+          </div>
+
+        </div>
+      </div>        
+      <Testi></Testi>  
+>>>>>>> 172cf599b543bdc0b77366f153adb0b3867bfb39
     
     </section>
   );

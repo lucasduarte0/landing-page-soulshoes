@@ -1,2 +1,8 @@
 # landing-page-soulshoes
-Landing Page Produto React JS
+
+Landing Page Desenvolvida em React JS
+
+- Vite JS
+- Tailwind Css
+
+Demo: https://soulshoess.com.br

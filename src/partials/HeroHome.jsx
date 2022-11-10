@@ -1,17 +1,39 @@
-import React, { useState } from 'react';
-import Modal from '../utils/Modal';
+/* eslint-disable jsx-a11y/alt-text */
+import React, { useState, useEffect } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import Logo from "../images/logo-branca.png";
+import { browserName } from "react-device-detect";
 
+<<<<<<< HEAD
 import HeroImage from '../images/hero-image.png';
 import NuvemBanner from '../images/nuvem-banner-1.png';
 import Sombra from '../images/sombra.png';
 import CapaVideo from '../images/capa-video.png';
 import ButtonComprar from '../components/ButtonComprar';
+=======
+function useScrollDirection() {
+  const [scrollDirection, setScrollDirection] = useState(null);
+
+  useEffect(() => {
+    const updateScrollDirection = () => {
+      const scrollY = window.pageYOffset;
+      setScrollDirection(scrollY);
+    };
+    window.addEventListener("scroll", updateScrollDirection); // add event listener
+    return () => {
+      window.removeEventListener("scroll", updateScrollDirection); // clean up
+    };
+  }, [scrollDirection]);
+
+  return scrollDirection;
+}
+>>>>>>> 172cf599b543bdc0b77366f153adb0b3867bfb39
 
 function HeroHome() {
-
-  const [videoModalOpen, setVideoModalOpen] = useState(false);
+  const scrollDirection = useScrollDirection();
 
   return (
+<<<<<<< HEAD
     <section className="relative bg-[#3b9df4] md:px-3 px-4">
       {/* Illustration behind hero content */}
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none" aria-hidden="true">
@@ -28,8 +50,21 @@ function HeroHome() {
             <circle cx="155" cy="443" r="64" />
           </g>
         </svg>
+=======
+    <section className={`h-screen`}>
+      <div className={`relative -top-10 w-full static z-0`}>
+        <LazyLoadImage
+          alt='Gif'
+          className={`sticky ${
+            scrollDirection > 1000 ? "hidden" : ""
+          } w-full h-full sticky object-cover brightness-75`}
+          src='https://ik.imagekit.io/soulshoes/Design_sem_nome__1__paRfq_5HS.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1666810733198' // use normal <img> attributes as props
+        />
+>>>>>>> 172cf599b543bdc0b77366f153adb0b3867bfb39
       </div>
+      <div className='fixed top-0 h-screen md:px-36 px-4 pb-8 pt-8'>
 
+<<<<<<< HEAD
       <div className="max-w-6xl mx-auto px-4 sm:px-6 pb-10">
 
         {/* Hero content */}
@@ -86,17 +121,44 @@ function HeroHome() {
                 </svg>
                 <span className="ml-3">Assista o video</span>
               </button>
+=======
+
+        <div className='flex flex-col pb-36 h-screen justify-center items-center'>
+          {/* Hero content */}
+
+          <div className='pt-4'>
+            <img className='w-48' src={Logo} alt='video nuvem' />
+          </div>
+
+          {/* Section header */}
+          <div className='text-center m-auto w-full'>
+            <h1
+              className='text-white h2 text-middle tracking-wider leading-tighter drop-shadow-lg hover:drop-shadow-xl z-10'
+              data-aos='zoom-y-out'
+            >
+              NÃO AGUENTA MAIS DORES NOS PÉS E PERNAS?
+            </h1>
+          </div>
+          <div className={`relative h-fit w-full justify-end ${ browserName == "Safari" ?  "-top-12" : "" }`}>
+            <h1
+              className='mb-2 text-white text-2xl md:text-3xl text-center leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10'
+              data-aos='zoom-y-out'
+            >
+              TEMOS A SOLUÇÃO PARA VOCÊ
+            </h1>
+            <div className='flex justify-center'>
+              <i className='fa-solid fa-chevron-down fa-3x center text-white animate-bounce'></i>
+>>>>>>> 172cf599b543bdc0b77366f153adb0b3867bfb39
             </div>
 
-            {/* Modal */}
-            <Modal id="modal" ariaLabel="modal-headline" show={videoModalOpen} handleClose={() => setVideoModalOpen(false)}>
-              <div className="relative pb-9/16">
-                <iframe className="absolute w-full h-full" src="https://player.vimeo.com/video/670232109?h=6d52a47cdc" width="640" height="853" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-              </div>
-            </Modal>
-            
-
+            {/* 
+            <ButtonComprar
+              className='text-2xl'
+              text='COMPRAR AGORA'
+              subText='OFERTA POR TEMPO ILIMITADO!'
+            ></ButtonComprar> */}
           </div>
+<<<<<<< HEAD
         
         </div>
         <h1 className="mb-6 text-white text-3xl md:text-3xl text-center leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10 font-bold" data-aos="zoom-y-out">
@@ -104,6 +166,9 @@ function HeroHome() {
         </h1>
         <ButtonComprar className="" text="EU QUERO ME SENTIR NAS NUVENS!" subText="OFERTA POR TEMPO ILIMITADO!"></ButtonComprar>
 
+=======
+        </div>
+>>>>>>> 172cf599b543bdc0b77366f153adb0b3867bfb39
       </div>
     </section>
   );

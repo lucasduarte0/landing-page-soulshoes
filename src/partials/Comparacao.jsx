@@ -10,7 +10,11 @@ import Logo from '../images/logo.png'
 
 function Comparacao() {
   return (
+<<<<<<< HEAD
     <section className="relative md:px-36">
+=======
+    <section className="relative md:px-36">      
+>>>>>>> 172cf599b543bdc0b77366f153adb0b3867bfb39
 
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 pointer-events-none" aria-hidden="true"></div>

@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
     {
         "name": "Marcela Rodrigues",
         "stars": "5",
@@ -36,3 +37,42 @@
         "img": "https://cf.shopee.com.br/file/8702e8295e06f9c9d7bc4956bf383e3d_tn"     
     }
 ]
+=======
+  {
+    "name": "Marcela Rodrigues",
+    "stars": "5",
+    "text": "Estou muito satisfeita, calço 35 e pedi 35/36, meu pé ficou perfeitamente acomodado, é levissima e macia, solado bem alto na medida, eu ando e sinto como se estivesse caminhando por cima de um colchão, a cor é fiel ao anúncio, linda! Já quero outras cores😍",
+    "img": "https://cf.shopee.com.br/file/063fc58833d2995f4795649a2df508bd_tn"
+  },
+  {
+    "name": "Daniela Rocha",
+    "stars": "4",
+    "text": "Chegou certinho, é confortável eu imaginei q ele fosse um pouquinho mais leve.",
+    "img": "https://cf.shopee.com.br/file/4a3ac471f539da2e1179799b16b297f9_tn"
+  },
+  {
+    "name": "Ana Lívia Porto",
+    "stars": "4",
+    "text": "Comprei para o meu filho, o tamanho deu bem certo no pé dele, recomendo medir o pé e comprar o seu número mesmo. Vou comprar mais com certeza!",
+    "img": "https://cf.shopee.com.br/file/1de5bd13cf9bec7ce50e0a0e653aa814_tn"
+  },
+  {
+    "name": "Ana Júlia Ribeiro",
+    "stars": "5",
+    "text": "Amei muito linda e confortável alto indico perfeita.",
+    "img": "https://cf.shopee.com.br/file/3e71ba4ea122a5ed385d48a99b3569df_tn"
+  },
+  {
+    "name": "Esther Lima",
+    "stars": "5",
+    "text": "Recebi adorei e lindo e muito confortável super indico podem comprar sem medo",
+    "img": "https://cf.shopee.com.br/file/1132ba939a294210ffc557d06bf890e5_tn"
+  },
+  {
+    "name": "Bruniele Arcanjo",
+    "stars": "5",
+    "text": "Veio bem embalada, chegou bem antes do prazo. Ele é bem leve. Gostei do produto. Indico. Calço 37 comprei a 38 achei bem grande.",
+    "img": "https://cf.shopee.com.br/file/8702e8295e06f9c9d7bc4956bf383e3d_tn"
+  }
+]
+>>>>>>> 172cf599b543bdc0b77366f153adb0b3867bfb39

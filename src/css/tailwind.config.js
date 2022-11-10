@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 module.exports = {
   content: [
     './index.html',
@@ -39,6 +40,17 @@ module.exports = {
           800: '#285E61',
           900: '#234E52',
         },
+        rosa: {
+          100: '#fc6596',
+          200: '#fc6596',
+          300: '#fc6596',
+          400: '#fc6596',
+          500: '#fc6596',
+          600: '#fc6596',
+          700: '#fc6596',
+          800: '#fc6596',
+          900: '#fc6596',
+        },
       },
       boxShadow: {
         xs: '0 0 0 1px rgba(0, 0, 0, 0.16)',
@@ -58,7 +70,8 @@ module.exports = {
         '1/1': '100%',
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif']
+        inter: ['Montserrat','Inter', 'sans-serif'],
+        carter: ['Carter One']
       },
       fontSize: {
         xs: '0.75rem',
@@ -115,6 +128,7 @@ module.exports = {
         "bounce-slow": 'bouncee 2s ease-in-out infinite',
         "rotate-slow": 'spinn 4s linear infinite',
         float: 'float 3s ease-in-out infinite',
+<<<<<<< HEAD
         blow: 'bloww 1s ease-in-out infinite',
       },
 
@@ -122,6 +136,20 @@ module.exports = {
         bloww: {
           '0%, 100%': { transform: 'scale(1)' },
           '50%': { transform: 'scale(1.04)' },
+=======
+        blow: 'bloww 1.5s ease-in-out infinite',
+        pingg: 'pinggg 1.3s ease-in-out infinite'
+      },
+
+      keyframes: {
+        pinggg: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.03)' },
+        },
+        bloww: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.02)' },
+>>>>>>> 172cf599b543bdc0b77366f153adb0b3867bfb39
         },
         bounce: {
           '0%, 100%': { transform: 'translateY(0%)' },

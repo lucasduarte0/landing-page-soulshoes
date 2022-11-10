@@ -214,3 +214,10 @@ html {
 i.fa {
   color: white !important;
 }
+
+.home-bg {
+  background-image: url("https://ik.imagekit.io/soulshoes/abrace_M3HpjQxq7.png?ik-sdk-version=javascript-1.4.3&updatedAt=1668046490210");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}

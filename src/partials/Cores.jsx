@@ -10,9 +10,9 @@ import NuvemTransicao from "../images/nuvem-transicao.png";
 
 function Cores() {
   return (
-    <section className='relative -top-24 bg-[#d0d0d0] pb-24'>
+    <section className='relative bg-[#d0d0d0] pb-24'>
       <img
-        className='md:hidden relative -top-24 -mb-24  bg-fill w-full mx-full md:px-36 md:bg-[#DA59B0]'
+        className='md:hidden relative -top-24 -mb-24 mt-20 bg-fill w-full mx-full md:px-36 md:bg-[#DA59B0]'
         src={NuvemTransicao}
         width='768'
         height='432'
@@ -37,8 +37,10 @@ function Cores() {
               Super Macio
             </h5>
             <p className='text-sm text-gray-700'>
-              Nosso chinelo possui tecnologia antiderrapante que garante o
-              máximo atrito mesmo em pisos molhados!{" "}
+
+              Feito com uma camada de 3cm de E.V.A, o{" "}
+              <strong>Chinelo Nuvem</strong> vai te proporcionar maior conforto
+              para realizar as tarefas do seu dia!{" "}
             </p>
           </div>
         </a>
@@ -54,12 +56,12 @@ function Cores() {
           />
           <div className='flex flex-col justify-between p-3 leading-normal'>
             <h5 className='text-lg font-bold tracking-tight text-gray-900'>
-              Super Macio
+            Anti-derrapante
             </h5>
             <p className='text-sm text-gray-700'>
-              Feito com uma camada de 3cm de E.V.A, o{" "}
-              <strong>Chinelo Nuvem</strong> vai te proporcionar maior conforto
-              para realizar as tarefas do seu dia!{" "}
+            Nosso chinelo possui tecnologia antiderrapante que garante o
+              máximo atrito mesmo em pisos molhados!{" "}
+              
             </p>
           </div>
         </a>
@@ -75,7 +77,7 @@ function Cores() {
           </div>
           <div className='flex flex-col justify-between p-3 leading-normal'>
             <h5 className='text-lg font-bold tracking-tight text-gray-900'>
-              Super Macio
+              Super Leve
             </h5>
             <p className='text-sm text-gray-700'>
               Pesando apenas 150g, nosso <strong>Chinelo Nuvem</strong> te

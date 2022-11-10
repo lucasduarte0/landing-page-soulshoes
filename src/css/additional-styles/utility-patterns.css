@@ -1,18 +1,23 @@
 /* Typography */
 .h1 {
-    @apply text-4xl font-extrabold leading-tight tracking-tighter;
+    @apply text-4xl font-extrabold leading-tighter tracking-tighter;
+    font-family: 'Nunito', Courier, monospace
 }
 
 .h2 {
-    @apply text-3xl font-extrabold leading-tight tracking-tighter;
+    @apply text-3xl font-extrabold leading-tighter tracking-tighter;
+    font-family: 'Nunito', Courier, monospace
+    
 }
 
 .h3 {
-    @apply text-3xl font-bold leading-tight;
+    @apply text-3xl font-bold leading-tighter;
+    font-family: 'Nunito', Courier, monospace
 }
 
 .h4 {
-    @apply text-2xl font-bold leading-snug tracking-tight;
+    @apply text-2xl font-bold leading-snug tracking-tighter;
+    font-family: 'Nunito', Courier, monospace
 }
 
 @screen md {

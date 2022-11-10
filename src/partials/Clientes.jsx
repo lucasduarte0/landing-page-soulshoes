@@ -19,13 +19,13 @@ function Clientes() {
     <>
       <section className='relative md:-top-16 md:px-16 md:pb-20 bg-[#ff9339] pb-32'>
         <img
-          className='md:hidden relative -top-40 -mb-10 bg-fill w-full mx-full md:px-36 z-50'
+          className='md:hidden relative -top-28 -mb-32 bg-fill w-full mx-full md:px-36 z-50'
           src={Transicao}
           width='768'
           height='432'
           alt='Hero'
         />
-        <div className='relative -top-36 md:top-0 md:w-3/4 m-auto z-0'>
+        <div className='relative  md:top-0 md:w-3/4 m-auto z-0'>
           <div className='w-full md:w-3/4 m-auto'>
             <img src={fd} className='w-full' />
           </div>

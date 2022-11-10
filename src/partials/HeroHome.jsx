@@ -26,40 +26,41 @@ function HeroHome() {
 
   return (
     <section className={`h-screen`}>
-      <div className={`relative -top-10 w-full static z-0`}>
+      {/* <div className={`relative -top-10 w-full static z-0`}>
         <LazyLoadImage
           alt='Gif'
-          className={`sticky ${
+          className={`video-bg sticky ${
             scrollDirection > 1000 ? "hidden" : ""
           } w-full h-full sticky object-cover brightness-75`}
           src='https://ik.imagekit.io/soulshoes/Design_sem_nome__1__paRfq_5HS.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1666810733198' // use normal <img> attributes as props
         />
-      </div>
-      <div className='fixed top-0 h-screen md:px-36 px-4 pb-8 pt-8'>
+      </div> */}
+      <div className='home-bg h-screen md:px-36 px-4 pb-8 pt-8'>
 
 
-        <div className='flex flex-col pb-36 h-screen justify-center items-center'>
+        <div className='flex flex-col pb-36 h-screen'>
           {/* Hero content */}
-
+{/* 
           <div className='pt-4'>
             <img className='w-48' src={Logo} alt='video nuvem' />
-          </div>
+          </div> */}
 
           {/* Section header */}
-          <div className='text-center m-auto w-full'>
+          <div className='text-center block h-full items-baseline w-full mt-32 pt-4 leading-tighter drop-shadow-lg hover:drop-shadow-xl'>
             <h1
-              className='text-white h2 text-middle tracking-wider leading-tighter drop-shadow-lg hover:drop-shadow-xl z-10'
+              className='text-white h1 '
               data-aos='zoom-y-out'
             >
-              NÃO AGUENTA MAIS DORES NOS PÉS E PERNAS?
+              O CHINELO MAIS QUERIDO DO 
             </h1>
+              <span className="font-[900] h1 text-5xl text-[#da5aaf]">BRASIL</span>
           </div>
-          <div className={`relative h-fit w-full justify-end ${ browserName == "Safari" ?  "-top-12" : "" }`}>
+          <div className="relative h-fit w-full self-baseline">
             <h1
-              className='mb-2 text-white text-2xl md:text-3xl text-center leading-tighter tracking-tighter drop-shadow-md hover:drop-shadow-xl z-10'
+              className='mb-2 h2 text-white text-center drop-shadow-md hover:drop-shadow-xl z-10'
               data-aos='zoom-y-out'
             >
-              TEMOS A SOLUÇÃO PARA VOCÊ
+              ARRASTE A TELA PARA SABER MAIS
             </h1>
             <div className='flex justify-center'>
               <i className='fa-solid fa-chevron-down fa-3x center text-white animate-bounce'></i>

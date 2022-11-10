@@ -70,7 +70,7 @@ module.exports = {
         '1/1': '100%',
       },
       fontFamily: {
-        inter: ['Montserrat','Inter', 'sans-serif'],
+        inter: ['Nunito','Inter', 'sans-serif'],
         carter: ['Carter One']
       },
       fontSize: {

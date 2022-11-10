@@ -14,9 +14,9 @@ import { browserName } from "react-device-detect"
 
 function FeaturesBlocks() {
   return (
-    <section className={`relative ${ browserName == "Safari" ?  "-top-28" : "-top-16" }  md:px-16 md:pb-12 bg-[#fc98d6] md:pt-24 pb-24`}>
+    <section className="md:px-16 md:pb-12 bg-[#fc98d6] md:pt-24 pb-24">
       <img
-        className='md:hidden relative -top-20 -mb-10 bg-fill w-full mx-full md:px-36'
+        className='md:hidden relative bg-fill w-full mx-full md:px-36'
         src={Transicao}
         width='768'
         height='432'
@@ -43,7 +43,7 @@ function FeaturesBlocks() {
             />
           </div> */}
           <div className='flex flex-row self-center items-center'>
-            <h2 className='uppercase text-2xl md:text-3xl font-semibold mb-1'>
+            <h2 className='h3 md:text-3xl mb-1'>
               Sabe aquela sensação de dores nos pés que sempre te incomoda no
               fim do dia?
             </h2>
@@ -56,7 +56,7 @@ function FeaturesBlocks() {
           </div> */}
 
           <div className=' '>
-            <h3 className='h4 my-5 text-xl font-normal tracking-normal'>
+            <h3 className='h4 my-5 tracking-normal'>
               Com o{" "}
               <a className='font-extrabold underline underline-offset-4 decoration-sky-500 decoration-3 decoration-dashed'>
                 {tituloProduto}
@@ -131,7 +131,7 @@ function FeaturesBlocks() {
           <ButtonComprar
             className='md:mt-10 h4'
             titleColor='gray-700'
-            text='COMPRAR AGORA COM FRETE GRATIS!'
+            text='GARANTIR MEU CHINELO PEGADA COMFORT'
             subText='APROVEITE POR APENAS R$127,90'
           ></ButtonComprar>
         </div>

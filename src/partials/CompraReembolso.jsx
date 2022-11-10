@@ -5,7 +5,7 @@ import Reembolso from "../images/restituicao.png";
 
 function CompraReembolso() {
   return (
-    <section className='relative -top-60 md:px-36 bg-white'>
+    <section className='md:px-36 bg-white'>
       {/* Section header */}
       <div className='flex flex-row px-5 space-x-4'>
         <div className="basis-1/4">

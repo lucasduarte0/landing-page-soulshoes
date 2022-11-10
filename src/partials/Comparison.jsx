@@ -10,14 +10,14 @@ export default function Comparison() {
   return (
     <section className='relative  md:p-26 bg-white -mb-60'>
               <img
-        className='md:hidden relative -top-40 -mb-10 bg-fill w-full mx-full md:px-36 z-50'
+        className='md:hidden relative -top-28 -mb-40 bg-fill w-full mx-full md:px-36 z-50'
         src={Transicao}
         width='768'
         height='432'
         alt='Hero'
       />
       {/* Section header */}
-      <div className='container -top-40 relative pb-48'>        
+      <div className='container relative pb-48'>        
         <div className='row'>
           <div className='col-6 col-md-3 px-0.5 text-right order-2 order-md-1'>
             <div className='flex items-center justify-center h-16 m-auto'>
@@ -25,40 +25,37 @@ export default function Comparison() {
                 OUTRAS MARCAS
               </h4>
             </div>
-            <p className='pt-1.5 px-1'>
-              <strong>Potente com:</strong>
-            </p>
-            <div className='items mt-2'>
+            <div className='items mt-2 pr-1'>
               <li className='flex justify-end align-items-center text-right'>
-                <h3>Ácido Hialurônico</h3>
+                <h3>Material rígido e pesado</h3>
                 <img
                   src='https://www.renovabe.com.br/tema/renovabe-vue-novo/dist/img/CHECK%201.bb1c5a76.svg'
                   className='img-fluid pl-2'
                 />
               </li>
               <li className='flex justify-end align-items-center text-right'>
-                <h3>Vitamina C</h3>
+                <h3>Entrega demorada</h3>
                 <img
                   src='https://www.renovabe.com.br/tema/renovabe-vue-novo/dist/img/CHECK%201.bb1c5a76.svg'
                   className='img-fluid pl-2'
                 />
               </li>
               <li className='flex justify-end align-items-center text-right'>
-                <h3>Vitamina B12</h3>
+                <h3>Acabando inferior</h3>
                 <img
                   src='https://www.renovabe.com.br/tema/renovabe-vue-novo/dist/img/CHECK%201.bb1c5a76.svg'
                   className='img-fluid pl-2'
                 />
               </li>
               <li className='flex justify-end align-items-center text-right'>
-                <h3>Vitamina E</h3>
+                <h3>Material escorregadío</h3>
                 <img
                   src='https://www.renovabe.com.br/tema/renovabe-vue-novo/dist/img/CHECK%201.bb1c5a76.svg'
                   className='img-fluid pl-2'
                 />
               </li>
               <li className='flex justify-end align-items-center text-right'>
-                <h3>Zinco</h3>
+                <h3>Formato não encaixa aos pés</h3>
                 <img
                   src='https://www.renovabe.com.br/tema/renovabe-vue-novo/dist/img/CHECK%201.bb1c5a76.svg'
                   className='img-fluid pl-2'
@@ -77,18 +74,15 @@ export default function Comparison() {
               {/* PEGADA COMFORT */}
               <img src={Logo} className='w-fit px-5 m-auto' />
             </div>
-            <p className='pt-1.5 px-1'>
-              <strong>Mais potente com:</strong>
-            </p>
             <div className='items mt-2'>
               <li className='flex justify-start align-items-center text-start'>
                 <div className='new'></div>
                 <img
                   src='https://www.renovabe.com.br/tema/renovabe-vue-novo/dist/img/CHECK%202.87915573.svg'
-                  className='img-fluid ml-2 pr-2'
+                  className='self-start h-auto pt-1 img-fluid ml-2 pr-2'
                 />
                 <h3>
-                  Colágeno Verisol
+                  Material 100% EVA
                   <sup>®</sup>
                 </h3>
               </li>
@@ -96,49 +90,49 @@ export default function Comparison() {
                 <div className='new'></div>
                 <img
                   src='https://www.renovabe.com.br/tema/renovabe-vue-novo/dist/img/CHECK%202.87915573.svg'
-                  className='img-fluid ml-2 pr-2'
+                  className=' self-start h-auto pt-1 img-fluid ml-2 pr-2'
                 />
-                <h3>Ácido Hialurônico</h3>
+                <h3>Técnologia desenvolvida no Brasil</h3>
               </li>
               <li className='flex justify-start align-items-center text-start'>
                 <div className='new'></div>
                 <img
                   src='https://www.renovabe.com.br/tema/renovabe-vue-novo/dist/img/CHECK%202.87915573.svg'
-                  className='img-fluid ml-2 pr-2'
+                  className='self-start h-auto pt-1 img-fluid ml-2 pr-2'
                 />
-                <h3>Rico em biotina</h3>
+                <h3>Material aderente ao chão</h3>
               </li>
               <li className='flex justify-start align-items-center text-start'>
                 <div className='new'></div>
                 <img
                   src='https://www.renovabe.com.br/tema/renovabe-vue-novo/dist/img/CHECK%202.87915573.svg'
-                  className='img-fluid ml-2 pr-2'
+                  className='self-start h-auto pt-1 img-fluid ml-2 pr-2'
                 />
-                <h3>Vitamina C</h3>
+                <h3>Fácil limpeza</h3>
               </li>
               <li className='flex justify-start align-items-center text-start'>
                 <div className='new'></div>
                 <img
                   src='https://www.renovabe.com.br/tema/renovabe-vue-novo/dist/img/CHECK%202.87915573.svg'
-                  className='img-fluid ml-2 pr-2'
+                  className='img-fluid self-start h-auto pt-1 ml-2 pr-2'
                 />
-                <h3>Vitamina B12</h3>
+                <h3>Envio em 24 horas</h3>
               </li>
               <li className='flex justify-start align-items-center text-start'>
                 <div className='new'></div>
                 <img
                   src='https://www.renovabe.com.br/tema/renovabe-vue-novo/dist/img/CHECK%202.87915573.svg'
-                  className='img-fluid ml-2 pr-2'
+                  className='self-start h-auto pt-1 img-fluid ml-2 pr-2'
                 />
-                <h3>Vitamina E</h3>
+                <h3>Atendimento 24/7</h3>
               </li>
               <li className='flex justify-start align-items-center text-start'>
                 <div className='new'></div>
                 <img
                   src='https://www.renovabe.com.br/tema/renovabe-vue-novo/dist/img/CHECK%202.87915573.svg'
-                  className='img-fluid ml-2 pr-2'
+                  className=' self-start h-auto pt-1 img-fluid ml-2 pr-2'
                 />
-                <h3>Zinco</h3>
+                <h3>Até 7 dias para devolução</h3>
               </li>
             </div>
           </div>

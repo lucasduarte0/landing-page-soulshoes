@@ -27,13 +27,14 @@ function Home() {
         <Header />
         <HeroHome />
         <FeaturesBlocks />
-      
+
         {/* <Comparacao /> */}
-        <Comparison />
-        <Cores />
+
         {/* <YellowSection /> */}
+        <Cores />
         <CompraReembolso />
         <FeaturesHome />
+        <Comparison />
         <Clientes />
         <BannerGigante />
         {/* <Testimonials /> */}
